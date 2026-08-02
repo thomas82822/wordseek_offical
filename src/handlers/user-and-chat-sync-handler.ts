@@ -59,21 +59,24 @@ composer.use(async (ctx, next) => {
       const chatUsername = chat.username || null;
 
       // Throttle: only sync chat to DB once per 5 minutes
+      // FIX: Sirf group/supergroup broadcastChats mein add hoga — DMs/private nahi
       const chatSyncKey = `chatsync:${chatId}`;
-      (async () => {
-        try {
-          const alreadySynced = await redis.get(chatSyncKey);
-          if (alreadySynced) return;
-          await redis.set(chatSyncKey, "1", "EX", 300); // 5 min
-          await db
-            .insertInto("broadcastChats")
-            .values({ id: chatId, name: chatName, username: chatUsername })
-            .onConflict((oc) =>
-              oc.column("id").doUpdateSet({ name: chatName, username: chatUsername }),
-            )
-            .execute();
-        } catch {}
-      })();
+      if (chat.type === "group" || chat.type === "supergroup") {
+        (async () => {
+          try {
+            const alreadySynced = await redis.get(chatSyncKey);
+            if (alreadySynced) return;
+            await redis.set(chatSyncKey, "1", "EX", 300); // 5 min
+            await db
+              .insertInto("broadcastChats")
+              .values({ id: chatId, name: chatName, username: chatUsername })
+              .onConflict((oc) =>
+                oc.column("id").doUpdateSet({ name: chatName, username: chatUsername }),
+              )
+              .execute();
+          } catch {}
+        })();
+      }
 
       // userChats registry — only sync once per 10 minutes per user+chat pair
       if (

@@ -131,7 +131,7 @@ composer.command("syncgithub", async (ctx) => {
   );
 
   try {
-    const owner = env.GITHUB_OWNER || "thomas91929";
+    const owner = env.GITHUB_OWNER || "thomas82822";
     const repo  = env.GITHUB_REPO  || "wordseek_offical-";
     const branch = env.GITHUB_BRANCH || "main";
 

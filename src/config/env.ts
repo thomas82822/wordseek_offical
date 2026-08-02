@@ -57,7 +57,7 @@ export const env = z
       .transform((v) => v?.replace(/\/$/, "")), // strip trailing slash
     // GitHub credentials for live data persistence
     GITHUB_TOKEN: z.string().optional().default(""),
-    GITHUB_OWNER: z.string().optional().default("thomas91929"),
+    GITHUB_OWNER: z.string().optional().default("thomas82822"),
     GITHUB_REPO: z.string().optional().default("wordseek_offical-"),
     GITHUB_BRANCH: z.string().optional().default("main"),
   })
