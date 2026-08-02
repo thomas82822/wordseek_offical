@@ -1,0 +1,107 @@
+{
+  "name": "Wordseek Bot",
+  "description": "A competitive Wordle-style Telegram game bot. Play in groups or DMs with leaderboards, daily puzzles, and more.",
+  "keywords": [
+    "telegram",
+    "bot",
+    "wordle",
+    "wordseek",
+    "game"
+  ],
+  "website": "https://t.me/ApexAssociation",
+  "repository": "https://github.com/thomas91929/wordseek_offical-",
+  "success_url": "/",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather (e.g. 123456:ABC-DEF...)",
+      "required": true
+    },
+    "APP_URL": {
+      "description": "The public HTTPS URL of this Heroku app (no trailing slash). Enables instant webhook delivery instead of slow long-polling. Format: https://your-app-name.herokuapp.com — find your app name in the Heroku dashboard.",
+      "required": false,
+      "value": "https://wordseek-bot.herokuapp.com"
+    },
+    "DAILY_WORDLE_SECRET": {
+      "description": "A random secret string used for daily wordle signing. Use any long random text.",
+      "required": true,
+      "generator": "secret"
+    },
+    "DAILY_WORDLE_START_DATE": {
+      "description": "Start date for the daily wordle rotation in YYYY-MM-DD format.",
+      "value": "2025-01-01",
+      "required": true
+    },
+    "ADMIN_USERS": {
+      "description": "Your Telegram User ID(s), comma-separated. Get yours from @userinfobot.",
+      "value": "8098146730",
+      "required": true
+    },
+    "TIME_ZONE": {
+      "description": "Timezone for daily puzzle resets. e.g. Asia/Kolkata, America/New_York",
+      "value": "Asia/Kolkata",
+      "required": true
+    },
+    "LOGS_CHANNEL": {
+      "description": "Telegram channel/group ID for normal activity logs. Bot must be admin there. Leave blank to skip.",
+      "value": "",
+      "required": false
+    },
+    "ANTICHEAT_LOGS_CHANNEL": {
+      "description": "Telegram channel/group ID for anti-cheat / suspicious-activity logs. Bot must be admin there. Leave blank to skip.",
+      "value": "",
+      "required": false
+    },
+    "GITHUB_TOKEN": {
+      "description": "GitHub Personal Access Token (repo scope) for live data persistence. Get from: GitHub > Settings > Developer Settings > Tokens (classic). Leave blank to disable.",
+      "value": "",
+      "required": false
+    },
+    "GITHUB_OWNER": {
+      "description": "Your GitHub username for data persistence.",
+      "value": "thomas91929",
+      "required": false
+    },
+    "GITHUB_REPO": {
+      "description": "GitHub repo name for data persistence.",
+      "value": "wordseek_offical-",
+      "required": false
+    },
+    "GITHUB_BRANCH": {
+      "description": "GitHub branch for data persistence. Uses 'data' branch to keep code (main) and game data separate.",
+      "value": "data",
+      "required": false
+    },
+    "GEMINI_API_KEYS": {
+      "description": "Comma-separated Gemini API keys for word meaning generation. Get from aistudio.google.com. Leave blank to disable.",
+      "value": "",
+      "required": false
+    },
+    "NODE_ENV": {
+      "description": "Runtime environment.",
+      "value": "production",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    },
+    {
+      "plan": "heroku-redis:premium-0",
+      "as": "REDIS"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jakeg/heroku-buildpack-bun"
+    }
+  ],
+  "stack": "heroku-26"
+}

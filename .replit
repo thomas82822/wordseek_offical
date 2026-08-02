@@ -1,0 +1,12 @@
+modules = ["bun-1.3", "postgresql-16"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.shared]
+DAILY_WORDLE_SECRET = "e7f455c61ce691fd9cbf74a975804dbf789310298383ca59"
+TIME_ZONE = "Asia/Kolkata"

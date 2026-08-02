@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-08-01T10:34:59.389Z",
+  "data": [
+    {
+      "id": 3637,
+      "word": "cell",
+      "activeChat": "8819657185",
+      "createdAt": "2026-07-28T06:31:18.255Z",
+      "updatedAt": "2026-07-28T06:31:18.255Z",
+      "startedBy": "8819657185",
+      "topicId": "general"
+    },
+    {
+      "id": 1816,
+      "word": "kiln",
+      "activeChat": "8150394064",
+      "createdAt": "2026-07-22T19:58:08.079Z",
+      "updatedAt": "2026-07-22T19:58:08.079Z",
+      "startedBy": "8150394064",
+      "topicId": "general"
+    },
+    {
+      "id": 3638,
+      "word": "table",
+      "activeChat": "6162177897",
+      "createdAt": "2026-07-28T08:31:58.945Z",
+      "updatedAt": "2026-07-28T08:31:58.945Z",
+      "startedBy": "6162177897",
+      "topicId": "general"
+    },
+    {
+      "id": 3936,
+      "word": "shook",
+      "activeChat": "-1004408168512",
+      "createdAt": "2026-07-31T10:00:10.027Z",
+      "updatedAt": "2026-07-31T10:00:10.027Z",
+      "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 291,
+      "word": "tepid",
+      "activeChat": "8668222760",
+      "createdAt": "2026-07-19T01:59:59.202Z",
+      "updatedAt": "2026-07-19T01:59:59.202Z",
+      "startedBy": "8668222760",
+      "topicId": "general"
+    },
+    {
+      "id": 297,
+      "word": "beck",
+      "activeChat": "6205739400",
+      "createdAt": "2026-07-19T02:12:33.111Z",
+      "updatedAt": "2026-07-19T02:12:33.111Z",
+      "startedBy": "6205739400",
+      "topicId": "general"
+    },
+    {
+      "id": 3948,
+      "word": "tram",
+      "activeChat": "-1003953024396",
+      "createdAt": "2026-07-31T11:22:10.311Z",
+      "updatedAt": "2026-07-31T11:22:10.311Z",
+      "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 300,
+      "word": "reedy",
+      "activeChat": "8946524603",
+      "createdAt": "2026-07-19T02:27:08.624Z",
+      "updatedAt": "2026-07-19T02:27:08.624Z",
+      "startedBy": "8946524603",
+      "topicId": "general"
+    },
+    {
+      "id": 3951,
+      "word": "race",
+      "activeChat": "8098146730",
+      "createdAt": "2026-07-31T13:39:47.180Z",
+      "updatedAt": "2026-07-31T13:39:47.180Z",
+      "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 3349,
+      "word": "randy",
+      "activeChat": "-1003942511984",
+      "createdAt": "2026-07-25T12:26:40.076Z",
+      "updatedAt": "2026-07-25T12:26:40.076Z",
+      "startedBy": "8150394064",
+      "topicId": "general"
+    },
+    {
+      "id": 306,
+      "word": "hoax",
+      "activeChat": "-1003510766321",
+      "createdAt": "2026-07-19T06:02:15.334Z",
+      "updatedAt": "2026-07-19T06:02:15.334Z",
+      "startedBy": "8955597713",
+      "topicId": "general"
+    },
+    {
+      "id": 1568,
+      "word": "steak",
+      "activeChat": "5822644571",
+      "createdAt": "2026-07-22T00:12:08.916Z",
+      "updatedAt": "2026-07-22T00:12:08.916Z",
+      "startedBy": "5822644571",
+      "topicId": "general"
+    },
+    {
+      "id": 1248,
+      "word": "brawl",
+      "activeChat": "8730267902",
+      "createdAt": "2026-07-20T22:26:19.919Z",
+      "updatedAt": "2026-07-20T22:26:19.919Z",
+      "startedBy": "8730267902",
+      "topicId": "general"
+    },
+    {
+      "id": 1249,
+      "word": "bravo",
+      "activeChat": "8909820239",
+      "createdAt": "2026-07-21T01:26:49.555Z",
+      "updatedAt": "2026-07-21T01:26:49.555Z",
+      "startedBy": "8909820239",
+      "topicId": "general"
+    },
+    {
+      "id": 3731,
+      "word": "bind",
+      "activeChat": "-1002633411148",
+      "createdAt": "2026-07-29T09:11:42.428Z",
+      "updatedAt": "2026-07-29T09:11:42.428Z",
+      "startedBy": "8362964813",
+      "topicId": "general"
+    },
+    {
+      "id": 2588,
+      "word": "fairy",
+      "activeChat": "-1003834099867",
+      "createdAt": "2026-07-24T17:06:59.505Z",
+      "updatedAt": "2026-07-24T17:06:59.505Z",
+      "startedBy": "7979914854",
+      "topicId": "general"
+    },
+    {
+      "id": 2590,
+      "word": "erase",
+      "activeChat": "8702740059",
+      "createdAt": "2026-07-24T18:31:57.896Z",
+      "updatedAt": "2026-07-24T18:31:57.896Z",
+      "startedBy": "8702740059",
+      "topicId": "general"
+    },
+    {
+      "id": 3931,
+      "word": "trip",
+      "activeChat": "8421763585",
+      "createdAt": "2026-07-31T09:55:40.610Z",
+      "updatedAt": "2026-07-31T09:55:40.610Z",
+      "startedBy": "8421763585",
+      "topicId": "general"
+    },
+    {
+      "id": 3932,
+      "word": "main",
+      "activeChat": "7413954673",
+      "createdAt": "2026-07-31T09:55:46.126Z",
+      "updatedAt": "2026-07-31T09:55:46.126Z",
+      "startedBy": "7413954673",
+      "topicId": "general"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-08-01T10:34:59.389Z",
+  "data": [
+    {
+      "id": 1,
+      "dayNumber": 1,
+      "word": "lefts",
+      "date": "2026-07-16T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-16T00:30:00.102Z",
+      "updatedAt": "2026-07-16T00:30:00.102Z"
+    },
+    {
+      "id": 397,
+      "dayNumber": 397,
+      "word": "plush",
+      "date": "2026-07-29T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-29T00:30:00.470Z",
+      "updatedAt": "2026-07-29T00:30:00.470Z"
+    },
+    {
+      "id": 34,
+      "dayNumber": 34,
+      "word": "craps",
+      "date": "2026-07-18T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-18T00:30:00.163Z",
+      "updatedAt": "2026-07-18T00:30:00.163Z"
+    },
+    {
+      "id": 67,
+      "dayNumber": 67,
+      "word": "himbo",
+      "date": "2026-07-19T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-19T00:30:00.120Z",
+      "updatedAt": "2026-07-19T00:30:00.120Z"
+    },
+    {
+      "id": 100,
+      "dayNumber": 100,
+      "word": "based",
+      "date": "2026-07-20T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-20T00:30:00.094Z",
+      "updatedAt": "2026-07-20T00:30:00.094Z"
+    },
+    {
+      "id": 133,
+      "dayNumber": 133,
+      "word": "drags",
+      "date": "2026-07-21T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-21T00:30:00.486Z",
+      "updatedAt": "2026-07-21T00:30:00.486Z"
+    },
+    {
+      "id": 166,
+      "dayNumber": 166,
+      "word": "ahead",
+      "date": "2026-07-22T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-22T00:30:00.195Z",
+      "updatedAt": "2026-07-22T00:30:00.195Z"
+    },
+    {
+      "id": 199,
+      "dayNumber": 199,
+      "word": "wises",
+      "date": "2026-07-23T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-23T00:30:00.316Z",
+      "updatedAt": "2026-07-23T00:30:00.316Z"
+    },
+    {
+      "id": 232,
+      "dayNumber": 232,
+      "word": "ousts",
+      "date": "2026-07-24T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-24T00:30:00.439Z",
+      "updatedAt": "2026-07-24T00:30:00.439Z"
+    },
+    {
+      "id": 265,
+      "dayNumber": 265,
+      "word": "sward",
+      "date": "2026-07-25T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-25T00:30:00.625Z",
+      "updatedAt": "2026-07-25T00:30:00.625Z"
+    },
+    {
+      "id": 298,
+      "dayNumber": 298,
+      "word": "dough",
+      "date": "2026-07-26T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-26T00:30:00.122Z",
+      "updatedAt": "2026-07-26T00:30:00.122Z"
+    },
+    {
+      "id": 331,
+      "dayNumber": 331,
+      "word": "exalt",
+      "date": "2026-07-27T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-27T00:30:00.608Z",
+      "updatedAt": "2026-07-27T00:30:00.608Z"
+    },
+    {
+      "id": 364,
+      "dayNumber": 364,
+      "word": "spine",
+      "date": "2026-07-28T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-28T00:30:00.085Z",
+      "updatedAt": "2026-07-28T00:30:00.085Z"
+    },
+    {
+      "id": 430,
+      "dayNumber": 430,
+      "word": "blond",
+      "date": "2026-07-30T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-30T00:30:00.304Z",
+      "updatedAt": "2026-07-30T00:30:00.304Z"
+    },
+    {
+      "id": 463,
+      "dayNumber": 463,
+      "word": "maker",
+      "date": "2026-07-31T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-07-31T00:30:00.090Z",
+      "updatedAt": "2026-07-31T00:30:00.090Z"
+    },
+    {
+      "id": 496,
+      "dayNumber": 496,
+      "word": "toked",
+      "date": "2026-08-01T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-08-01T00:30:00.102Z",
+      "updatedAt": "2026-08-01T00:30:00.102Z"
+    }
+  ]
+}

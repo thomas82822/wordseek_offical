@@ -1,0 +1,8 @@
+[
+  { "threshold": 100000, "name": "Legendary Sage" },
+  { "threshold": 50000, "name": "Grand Champion" },
+  { "threshold": 25000, "name": "Word Wizard" },
+  { "threshold": 10000, "name": "Lexicon Master" },
+  { "threshold": 5000, "name": "Word Artisan" },
+  { "threshold": 1000, "name": "Word Seeker" }
+]
