@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:48:53.872Z",
+  "timestamp": "2026-08-03T09:49:00.880Z",
   "data": [
     {
       "id": 5080,
@@ -143,15 +143,6 @@
       "createdAt": "2026-07-21T01:26:49.555Z",
       "updatedAt": "2026-07-21T01:26:49.555Z",
       "startedBy": "8909820239",
-      "topicId": "general"
-    },
-    {
-      "id": 5157,
-      "word": "ring",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-03T09:48:53.867Z",
-      "updatedAt": "2026-08-03T09:48:53.867Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
