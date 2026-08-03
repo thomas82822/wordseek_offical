@@ -1,8 +1,8 @@
 {
-  "lastSync": "2026-08-03T15:30:39.362Z",
+  "lastSync": "2026-08-03T15:30:55.969Z",
   "counts": {
     "users": 1150,
-    "leaderboard": 78855,
+    "leaderboard": 78859,
     "bannedUsers": 0,
     "botAdmins": 2,
     "frozenUsers": 0,
@@ -12,7 +12,7 @@
     "guesses": 28,
     "authorizedUsers": 0,
     "chatGameTopics": 0,
-    "broadcastChats": 81,
+    "broadcastChats": 82,
     "dailyWords": 17,
     "dailyGuesses": 0
   }
