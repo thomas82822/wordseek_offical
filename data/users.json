@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:42:26.730Z",
+  "timestamp": "2026-08-03T09:42:57.243Z",
   "data": [
     {
       "id": "8761468045",
@@ -9542,16 +9542,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000037",
-      "name": "𓂀99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:54.429Z",
-      "updatedAt": "2026-08-03T09:38:30.082Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7469835430",
       "name": "❛ .𝁘ໍ𝗦꯭ᴍ꯭ɪ꯭ʟ꯭ᴇ꯭ 𝗕꯭ᴏ꯭ʏ꯭𓆪ִֶָ ֺ⎯꯭‌ 𓆩💗𓆪𓈒",
       "username": "Ur_crush420",
@@ -9787,6 +9777,16 @@
       "username": null,
       "createdAt": "2026-07-16T08:39:58.362Z",
       "updatedAt": "2026-08-02T12:22:07.203Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000037",
+      "name": "𓂀99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:54.429Z",
+      "updatedAt": "2026-08-03T09:42:30.075Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11102,6 +11102,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000046",
+      "name": "𝐌𝐀𝐔𝐑𝐘𝐀-♡ �",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.913Z",
+      "updatedAt": "2026-08-03T09:42:30.100Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7473021518",
       "name": "ᯓ‌𓆰𝅃꯭꯭᳚ 𝖢꯭ ꯭ᴧ፝֠֩‌ ꯭ʀ ꯭𝛆 ꯭ℓ 𝛆꯭፝֠֩ 𝛅 ꯭𝛅 ꯭🇮🇳꯭ 𓆪",
       "username": null,
@@ -11177,16 +11187,6 @@
       "username": "ll_EGOISTIC_POISION_ll",
       "createdAt": "2026-07-16T15:12:15.532Z",
       "updatedAt": "2026-08-02T17:13:36.662Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000046",
-      "name": "𝐌𝐀𝐔𝐑𝐘𝐀-♡ �",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.913Z",
-      "updatedAt": "2026-08-03T09:33:11.358Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
