@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:42:58.051Z",
+  "timestamp": "2026-08-03T11:43:08.246Z",
   "data": [
     {
       "id": "8761468045",
@@ -8822,6 +8822,16 @@
       "dmStarted": true
     },
     {
+      "id": "7594120920",
+      "name": "ㅤ 𝙰𝙸𝚂𝚈𝙰 𓆩🥀𓆪",
+      "username": "II_Crown_Queen_II",
+      "createdAt": "2026-07-22T09:23:56.802Z",
+      "updatedAt": "2026-08-03T11:43:07.652Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "9900000056",
       "name": "Seno",
       "username": null,
@@ -8880,16 +8890,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "7594120920",
-      "name": "ㅤ 𝙰𝙸𝚂𝚈𝙰 𓆩🥀𓆪",
-      "username": "II_Crown_Queen_II",
-      "createdAt": "2026-07-22T09:23:56.802Z",
-      "updatedAt": "2026-08-03T11:38:00.820Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "7731028723",
@@ -10562,16 +10562,6 @@
       "dmStarted": false
     },
     {
-      "id": "8098146730",
-      "name": "Hbd hunter 💗🥂",
-      "username": "TheY_CaIl_mE_OG",
-      "createdAt": "2026-07-16T08:41:49.352Z",
-      "updatedAt": "2026-08-03T11:38:01.594Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8517036512",
       "name": "◄⏤͟͟͞🍸⃝⃪ᶦϻᷧ𝄄𝄀꯭𝄄꯭ 𝐓꯭❍꯭𝐗𝐈꯭𝐂 𝄄𝄀꯭𝄄꯭ 𝐁꯭❍꯭𝐘ᯓ꯭̽⎯꯭͓̽⟶🤍",
       "username": "I143V",
@@ -10917,6 +10907,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:53.865Z",
       "updatedAt": "2026-08-03T06:26:50.065Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "8098146730",
+      "name": "Hbd hunter 💗🥂",
+      "username": "TheY_CaIl_mE_OG",
+      "createdAt": "2026-07-16T08:41:49.352Z",
+      "updatedAt": "2026-08-03T11:43:04.982Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
