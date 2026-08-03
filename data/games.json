@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:51:30.987Z",
+  "timestamp": "2026-08-03T09:51:38.852Z",
   "data": [
     {
       "id": 5080,
@@ -137,12 +137,12 @@
       "topicId": "general"
     },
     {
-      "id": 5161,
-      "word": "they",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-03T09:51:30.983Z",
-      "updatedAt": "2026-08-03T09:51:30.983Z",
-      "startedBy": "8098146730",
+      "id": 5162,
+      "word": "closer",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-03T09:51:32.651Z",
+      "updatedAt": "2026-08-03T09:51:32.651Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
