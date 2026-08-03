@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:44:41.428Z",
+  "timestamp": "2026-08-03T11:47:45.480Z",
   "data": [
     {
       "id": 3637,
@@ -137,30 +137,21 @@
       "topicId": "general"
     },
     {
-      "id": 5220,
-      "word": "hookup",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-03T11:39:18.943Z",
-      "updatedAt": "2026-08-03T11:39:18.943Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
-    {
-      "id": 5223,
-      "word": "mind",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T11:44:41.424Z",
-      "updatedAt": "2026-08-03T11:44:41.424Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
       "id": 3731,
       "word": "bind",
       "activeChat": "-1002633411148",
       "createdAt": "2026-07-29T09:11:42.428Z",
       "updatedAt": "2026-07-29T09:11:42.428Z",
       "startedBy": "8362964813",
+      "topicId": "general"
+    },
+    {
+      "id": 5227,
+      "word": "flexed",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-03T11:47:07.635Z",
+      "updatedAt": "2026-08-03T11:47:07.635Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
