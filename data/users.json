@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:46:30.414Z",
+  "timestamp": "2026-08-03T09:46:41.659Z",
   "data": [
     {
       "id": "8761468045",
@@ -9422,6 +9422,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000042",
+      "name": "𝜯",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:55.823Z",
+      "updatedAt": "2026-08-03T09:46:40.078Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "5344374308",
       "name": "Yuviiii❤️",
       "username": "Yuvii0M",
@@ -9457,16 +9467,6 @@
       "username": null,
       "createdAt": "2026-07-17T16:13:42.213Z",
       "updatedAt": "2026-07-29T04:46:42.867Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000042",
-      "name": "𝜯",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:55.823Z",
-      "updatedAt": "2026-08-03T09:38:00.081Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
