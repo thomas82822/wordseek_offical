@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T12:05:52.982Z",
+  "timestamp": "2026-08-03T12:06:17.799Z",
   "data": [
     {
       "id": "8761468045",
@@ -8682,6 +8682,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000056",
+      "name": "Seno",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:58.837Z",
+      "updatedAt": "2026-08-03T12:06:00.107Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7465444601",
       "name": "♾𝚩 ᧘ ʙ γ͠ ᧘ / ⌯ •🍷",
       "username": "babya_mp",
@@ -8817,16 +8827,6 @@
       "username": "II_Crown_Queen_II",
       "createdAt": "2026-07-22T09:23:56.802Z",
       "updatedAt": "2026-08-03T12:04:15.535Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000056",
-      "name": "Seno",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:58.837Z",
-      "updatedAt": "2026-08-03T11:54:50.106Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
