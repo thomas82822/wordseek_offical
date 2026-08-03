@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T08:59:45.869Z",
+  "timestamp": "2026-08-03T08:59:56.297Z",
   "data": [
     {
       "id": "8761468045",
@@ -9862,16 +9862,6 @@
       "dmStarted": false
     },
     {
-      "id": "5693428929",
-      "name": "ㅤ˵𓄼 ᴋ ᴀ ᴢ ᴜ ʏ ᴀ 𝃵⤹ 🔥𝁒",
-      "username": "Absolute_Being_00",
-      "createdAt": "2026-07-16T13:09:59.686Z",
-      "updatedAt": "2026-08-03T07:46:14.810Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8797373848",
       "name": ".",
       "username": null,
@@ -9900,6 +9890,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "5693428929",
+      "name": "ㅤ˵𓄼 ᴋ ᴀ ᴢ ᴜ ʏ ᴀ 𝃵⤹ 🔥𝁒",
+      "username": "Absolute_Being_00",
+      "createdAt": "2026-07-16T13:09:59.686Z",
+      "updatedAt": "2026-08-03T08:59:55.936Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8591379922",
@@ -10592,16 +10592,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000001",
-      "name": "༏𝆺𝅥⎯ꨄ ➺",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.071Z",
-      "updatedAt": "2026-08-03T08:58:10.008Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7583421723",
       "name": "⌯ 𝚳ʀ ⁃/ 𝐊𝚪𝚰𝛅𝚮𝚴𝚨 ⌯ 🜲 ˹ 𝐎ᴘ ˼ #𝐌᧘н᧘ᴅ𝛆ꪜ𝁘𝛊֟፝ؖ۬s𝁘𝐅𝛆𝛆ʟɪ֟ɴɢs 🫀»",
       "username": "l_Jai_Shree_Krishna_l",
@@ -10807,6 +10797,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:44.445Z",
       "updatedAt": "2026-08-03T08:59:40.083Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000001",
+      "name": "༏𝆺𝅥⎯ꨄ ➺",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.071Z",
+      "updatedAt": "2026-08-03T08:59:50.008Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
