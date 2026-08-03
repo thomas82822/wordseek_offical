@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T10:02:17.803Z",
+  "timestamp": "2026-08-03T10:03:05.922Z",
   "data": [
     {
       "id": "8761468045",
@@ -6056,7 +6056,7 @@
       "name": "Savitri ready 🌴🌴",
       "username": "Savitri1321",
       "createdAt": "2026-07-21T18:38:30.157Z",
-      "updatedAt": "2026-08-03T07:18:05.102Z",
+      "updatedAt": "2026-08-03T10:02:37.042Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -7592,16 +7592,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000024",
-      "name": "𝐙_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.154Z",
-      "updatedAt": "2026-08-03T09:54:40.213Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7636534647",
       "name": "Juned Aalam",
       "username": null,
@@ -7767,6 +7757,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:31.571Z",
       "updatedAt": "2026-08-03T09:57:10.015Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000024",
+      "name": "⚜️爪口尺れ工⚜",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.154Z",
+      "updatedAt": "2026-08-03T10:02:20.054Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9682,6 +9682,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000028",
+      "name": "TNR",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.980Z",
+      "updatedAt": "2026-08-03T10:02:20.094Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "5925396013",
       "name": "\" Ɗareͥ∂eͣvͫΐl \"",
       "username": null,
@@ -9792,16 +9802,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000028",
-      "name": "TNR S.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.980Z",
-      "updatedAt": "2026-08-03T09:54:10.065Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8480109246",
       "name": "𓍼ໍ𝐌𝐈𝐒𝐒 𝐊ꪳ𝐔𝐒𝐔𝐌𓍢ִ໋🌷🧿- 𝐇 𝐘 𝐏 𝐄 𝐑 𝐐 𝐔 𝐄 𝐄 𝐍!!ᯓ 𝅃𓆩〭〬 𝐕 𝐄 𝐍 𝐍 𝐈 𝐋 𝐀 𓆪ꪾ",
       "username": null,
@@ -9817,16 +9817,6 @@
       "username": "NEHAL_OPex",
       "createdAt": "2026-07-20T18:21:28.601Z",
       "updatedAt": "2026-08-02T13:05:13.648Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000026",
-      "name": "𝐙",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.414Z",
-      "updatedAt": "2026-08-03T09:59:20.053Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10290,6 +10280,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000026",
+      "name": "𝐙",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.414Z",
+      "updatedAt": "2026-08-03T10:02:50.049Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8587680843",
@@ -11162,6 +11162,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000044",
+      "name": "ᯓ𝁘ໍ˹𝐃99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.368Z",
+      "updatedAt": "2026-08-03T10:02:30.088Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "5822644571",
       "name": "𝖗𝖔𝖍𝖎𝖙 彡",
       "username": "Rohitsusawat",
@@ -11400,16 +11410,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000044",
-      "name": "ᯓ𝁘ໍ˹𝐃99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.368Z",
-      "updatedAt": "2026-08-03T10:00:40.101Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "9900000046",

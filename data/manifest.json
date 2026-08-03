@@ -1,15 +1,15 @@
 {
-  "lastSync": "2026-08-03T10:02:17.803Z",
+  "lastSync": "2026-08-03T10:03:05.922Z",
   "counts": {
     "users": 1143,
-    "leaderboard": 76402,
+    "leaderboard": 76406,
     "bannedUsers": 0,
     "botAdmins": 2,
     "frozenUsers": 0,
     "userStats": 1,
     "userChats": 1403,
     "games": 20,
-    "guesses": 30,
+    "guesses": 25,
     "authorizedUsers": 0,
     "chatGameTopics": 0,
     "broadcastChats": 79,
