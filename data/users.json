@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:45:48.665Z",
+  "timestamp": "2026-08-03T09:45:54.342Z",
   "data": [
     {
       "id": "8761468045",
@@ -7466,7 +7466,7 @@
       "name": "𝐙_xd",
       "username": null,
       "createdAt": "2026-07-16T12:20:51.154Z",
-      "updatedAt": "2026-08-03T09:38:40.060Z",
+      "updatedAt": "2026-08-03T09:45:50.047Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10922,6 +10922,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000052",
+      "name": "Komal. ,.",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.732Z",
+      "updatedAt": "2026-08-03T09:45:50.113Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "9900000032",
       "name": "𝐎𝐖𝐍𝐄𝐑 �",
       "username": null,
@@ -11120,16 +11130,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000052",
-      "name": "Komal. ,.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.732Z",
-      "updatedAt": "2026-08-03T09:43:10.797Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8488473179",
@@ -11426,7 +11426,7 @@
       "name": "⌁ ─",
       "username": null,
       "createdAt": "2026-07-16T12:20:56.635Z",
-      "updatedAt": "2026-08-03T09:34:40.102Z",
+      "updatedAt": "2026-08-03T09:45:50.094Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
