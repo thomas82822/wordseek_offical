@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:47:56.480Z",
+  "timestamp": "2026-08-03T09:48:02.694Z",
   "data": [
     {
       "id": "8761468045",
@@ -9472,6 +9472,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000017",
+      "name": "🔱दैत्य😈",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.891Z",
+      "updatedAt": "2026-08-03T09:48:00.036Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7070200203",
       "name": ":)🕊️🧸",
       "username": null,
@@ -9552,11 +9562,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000017",
-      "name": "🔱दैत्य😈",
+      "id": "9900000057",
+      "name": "🚩㍿┋𝗗𝗔𝗞𝗨.𝗙𝗜𝗚𝗛𝗧𝗘𝗥🎙️ᯓ",
       "username": null,
-      "createdAt": "2026-07-16T12:20:44.891Z",
-      "updatedAt": "2026-08-03T09:38:20.034Z",
+      "createdAt": "2026-07-16T12:20:59.123Z",
+      "updatedAt": "2026-08-03T09:48:00.116Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9670,16 +9680,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000057",
-      "name": "🚩㍿┋𝗗𝗔𝗞𝗨.𝗙𝗜𝗚𝗛𝗧𝗘𝗥🎙️ᯓ",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:59.123Z",
-      "updatedAt": "2026-08-03T09:38:20.119Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "5925396013",
