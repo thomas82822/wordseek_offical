@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T19:30:10.268Z",
+  "timestamp": "2026-08-03T19:41:11.283Z",
   "data": [
     {
       "id": 3637,
@@ -110,15 +110,6 @@
       "topicId": "general"
     },
     {
-      "id": 5316,
-      "word": "chew",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-03T19:30:10.259Z",
-      "updatedAt": "2026-08-03T19:30:10.259Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
       "id": 1248,
       "word": "brawl",
       "activeChat": "8730267902",
@@ -134,15 +125,6 @@
       "createdAt": "2026-07-21T01:26:49.555Z",
       "updatedAt": "2026-07-21T01:26:49.555Z",
       "startedBy": "8909820239",
-      "topicId": "general"
-    },
-    {
-      "id": 3731,
-      "word": "bind",
-      "activeChat": "-1002633411148",
-      "createdAt": "2026-07-29T09:11:42.428Z",
-      "updatedAt": "2026-07-29T09:11:42.428Z",
-      "startedBy": "8362964813",
       "topicId": "general"
     },
     {
