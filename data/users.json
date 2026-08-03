@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:54:08.873Z",
+  "timestamp": "2026-08-03T09:54:20.145Z",
   "data": [
     {
       "id": "8761468045",
@@ -7042,6 +7042,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000022",
+      "name": "𝑲𝒖𝒄𝒉𝒖",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:50.894Z",
+      "updatedAt": "2026-08-03T09:54:10.045Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7979914854",
       "name": "一⋆𝐂𝐡̴𝛂֟֯፝͜͡𝐡𝛂𝛕💖",
       "username": null,
@@ -7057,16 +7067,6 @@
       "username": null,
       "createdAt": "2026-07-22T19:41:15.187Z",
       "updatedAt": "2026-07-25T12:52:32.068Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000022",
-      "name": "𝑲𝒖𝒄𝒉𝒖",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:50.894Z",
-      "updatedAt": "2026-08-03T09:45:10.046Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9796,7 +9796,7 @@
       "name": "TNR S.",
       "username": null,
       "createdAt": "2026-07-16T12:20:51.980Z",
-      "updatedAt": "2026-08-03T09:46:00.057Z",
+      "updatedAt": "2026-08-03T09:54:10.065Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10922,16 +10922,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000041",
-      "name": "Sana_shaik",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:55.552Z",
-      "updatedAt": "2026-08-03T09:51:10.089Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "9900000043",
       "name": "𝙿𝗋𝐀𝙱ɦ𝚄_xd",
       "username": null,
@@ -11030,16 +11020,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000018",
-      "name": "ᴍᴀʜᴅɪ༉٭_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:50.315Z",
-      "updatedAt": "2026-08-03T09:52:20.039Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "7555432623",
@@ -11302,6 +11282,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000018",
+      "name": "ᴍᴀʜᴅɪ༉٭_xd",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:50.315Z",
+      "updatedAt": "2026-08-03T09:54:20.038Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8803092283",
       "name": "..",
       "username": "Dipti_0601",
@@ -11320,6 +11310,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000041",
+      "name": "Sana_shaik",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:55.552Z",
+      "updatedAt": "2026-08-03T09:54:20.088Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8529955519",
