@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T10:03:14.928Z",
+  "timestamp": "2026-08-03T10:04:37.711Z",
   "data": [
     {
       "id": 3637,
@@ -43,15 +43,6 @@
       "activeChat": "-1004408168512",
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 5192,
-      "word": "rope",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T10:03:05.915Z",
-      "updatedAt": "2026-08-03T10:03:05.915Z",
       "startedBy": "8098146730",
       "topicId": "general"
     },
