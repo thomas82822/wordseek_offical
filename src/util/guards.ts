@@ -135,6 +135,21 @@ export async function runGuards(
 }
 
 /**
+ * Run all guards in PARALLEL instead of sequentially.
+ * Use when guards are fully independent (no side effects, read-only checks).
+ *
+ * Example: requireNotBanned + requireAllowedTopic are both pure Redis/DB
+ * reads — running them in parallel cuts latency from (A + B) to max(A, B).
+ */
+export async function runGuardsParallel(
+  ctx: Context,
+  guards: GuardFn[],
+): Promise<GuardResult> {
+  const results = await Promise.all(guards.map((g) => g(ctx)));
+  return results.find((r) => !r.ok) ?? { ok: true };
+}
+
+/**
  * Three-layer ban check: in-memory → Redis → DB.
  * Hot path: checked on EVERY group message, so in-memory matters a lot.
  * Stale window: 2 min. A fresh ban takes effect within 2 min without any DB hit.

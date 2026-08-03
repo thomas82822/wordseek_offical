@@ -4,7 +4,7 @@ import { getTargetUser } from "./seekauth";
 import { CommandsHelper } from "../util/commands-helper";
 import { getUserScores } from "../services/get-user-scores";
 import { getSmartDefaults } from "../util/get-smart-defaults";
-import { requireAllowedTopic, runGuards } from "../util/guards";
+import { requireAllowedTopic, runGuardsParallel } from "../util/guards";
 import { parseLeaderboardInput } from "../util/parse-leaderboard-input";
 import { formatNoScoresMessage } from "../util/format-no-scores-message";
 import { formatUserScoreMessage } from "../util/format-user-score-message";
@@ -16,10 +16,6 @@ composer.command("score", async (ctx) => {
   if (!ctx.from) return;
 
   const chatId = ctx.chat.id.toString();
-
-  const guard = await runGuards(ctx, [requireAllowedTopic]);
-  if (!guard.ok) return ctx.reply(guard.message);
-
   const input = ctx.match.trim();
 
   const {
@@ -29,25 +25,29 @@ composer.command("score", async (ctx) => {
     wordLength: requestedWordLength,
   } = parseLeaderboardInput(input, undefined, null);
 
-  const isOwnScore = !target;
+  // ── Parallel batch 1: topic guard + user lookup (fully independent) ──────
+  // OLD: sequential — guard finishes, then getTargetUser starts (~50–100ms wasted)
+  // NEW: both run at the same time — saves one full DB round-trip
+  const [guard, targetUser] = await Promise.all([
+    runGuardsParallel(ctx, [requireAllowedTopic]),
+    getTargetUser(ctx, target, true),
+  ]);
 
-  const targetUser = await getTargetUser(ctx, target, true);
-
-  if (!targetUser) {
-    return ctx.reply("User not found.");
-  }
+  if (!guard.ok) return ctx.reply(guard.message);
+  if (!targetUser) return ctx.reply("User not found.");
 
   const targetUsername = targetUser.username || targetUser.name;
+  const isOwnScore = !target;
 
-  const { searchKey, timeKey, wordLength, hasAnyScores } =
-    await getSmartDefaults({
-      userId: targetUser.id,
-      chatId,
-      requestedSearchKey,
-      requestedTimeKey,
-      requestedWordLength,
-      chatType: ctx.chat.type,
-    });
+  // ── Parallel batch 2: smart defaults + keyboard (defaults needed for both) ──
+  const { searchKey, timeKey, wordLength, hasAnyScores } = await getSmartDefaults({
+    userId: targetUser.id,
+    chatId,
+    requestedSearchKey,
+    requestedTimeKey,
+    requestedWordLength,
+    chatType: ctx.chat.type,
+  });
 
   const keyboard = generateLeaderboardKeyboard(
     searchKey,
@@ -56,6 +56,7 @@ composer.command("score", async (ctx) => {
     `score ${targetUser.id}`,
   );
 
+  // getUserScores is now Redis-cached (60s TTL) — fast even for complex window fn
   const userScore = await getUserScores({
     userId: targetUser.id,
     chatId,

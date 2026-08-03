@@ -1,6 +1,7 @@
 import { sql } from "kysely";
 
 import { db } from "../config/db";
+import { redis } from "../config/redis";
 import { AllowedWordLength } from "../config/constants";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 
@@ -17,6 +18,17 @@ export async function getUserScores({
   timeKey: AllowedChatTimeKey;
   wordLength?: AllowedWordLength;
 }) {
+  // ── Redis cache ──────────────────────────────────────────────────────────
+  // getUserScores runs a window function (rank() over …) that scans the full
+  // leaderboard. With no caching, every /score or /leaderboard call pays this
+  // cost. A 60-second TTL means scores are at most 60 s stale — fine for a
+  // game leaderboard, and unnoticeable to users.
+  const cacheKey = `user_score:${userId}:${chatId}:${searchKey}:${timeKey}:${wordLength}`;
+  try {
+    const cached = await redis.get(cacheKey);
+    if (cached !== null) return JSON.parse(cached) ?? undefined;
+  } catch {}
+
   const userQuery = db
     .selectFrom((eb) => {
       let innerQuery = eb
@@ -93,5 +105,13 @@ export async function getUserScores({
     ])
     .where("users.id", "=", userId);
 
-  return await userQuery.executeTakeFirst();
+  const result = await userQuery.executeTakeFirst();
+
+  // Cache the result (including null → store as JSON null so we know it's a
+  // cache hit for "no scores" rather than a cache miss).
+  redis
+    .set(cacheKey, JSON.stringify(result ?? null), "EX", 60)
+    .catch(() => {});
+
+  return result;
 }
