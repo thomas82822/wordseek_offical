@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:34:33.213Z",
+  "timestamp": "2026-08-03T11:36:12.115Z",
   "data": [
     {
       "id": 3637,
@@ -137,12 +137,12 @@
       "topicId": "general"
     },
     {
-      "id": 5217,
-      "word": "oral",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T11:34:02.648Z",
-      "updatedAt": "2026-08-03T11:34:02.648Z",
-      "startedBy": "8098146730",
+      "id": 5218,
+      "word": "demand",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-03T11:34:36.485Z",
+      "updatedAt": "2026-08-03T11:34:36.485Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
