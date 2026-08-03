@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:30:00.008Z",
+  "timestamp": "2026-08-03T09:34:05.661Z",
   "data": [
     {
       "id": 5080,
@@ -161,15 +161,6 @@
       "createdAt": "2026-07-24T18:31:57.896Z",
       "updatedAt": "2026-07-24T18:31:57.896Z",
       "startedBy": "8702740059",
-      "topicId": "general"
-    },
-    {
-      "id": 5123,
-      "word": "arrest",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-03T07:40:10.891Z",
-      "updatedAt": "2026-08-03T07:40:10.891Z",
-      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
