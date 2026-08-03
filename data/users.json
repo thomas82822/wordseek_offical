@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:51:47.185Z",
+  "timestamp": "2026-08-03T09:51:56.930Z",
   "data": [
     {
       "id": "8761468045",
@@ -11022,6 +11022,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000046",
+      "name": "𝐌𝐀𝐔𝐑𝐘𝐀-♡ �",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.913Z",
+      "updatedAt": "2026-08-03T09:51:50.087Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "6407947411",
       "name": "❛.𝁘ໍ 𝚰 ꪀ ⋎ ᰻ ටි ᰻ 𝛃 ᰻ ㄥ 𝛜 .",
       "username": null,
@@ -11080,16 +11090,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000046",
-      "name": "𝐌𝐀𝐔𝐑𝐘𝐀-♡ �",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.913Z",
-      "updatedAt": "2026-08-03T09:42:30.100Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "6367691019",
