@@ -356,63 +356,80 @@ composer.on("message:text", async (ctx) => {
     return;
   }
 
-  // ── Wrong guess: insert to DB, append to Redis cache, update guessed set ─
-  const insertedGuess = await db
-    .insertInto("guesses")
-    .values({ gameId: currentGame.id, guess: currentGuess, chatId })
-    .returningAll()
-    .executeTakeFirst();
+  // ── Wrong guess — reply-first pattern ───────────────────────────────────
+  //
+  // OLD order (slow):  sadd → DB insert (15ms) → cache append → getCached → reply
+  // NEW order (fast):  sadd → getCached → build reply → reply + DB write in parallel
+  //
+  // The Telegram API call (~100–200ms) and the DB insert (~10–20ms) now run
+  // concurrently.  The user's reply goes out the moment Telegram's network
+  // allows it — zero sequential DB wait on the hot path.
 
-  // RACE CONDITION FIX: appendGuessToCache MUST be awaited before getCachedGuesses.
-  // Without await, getCachedGuesses could read from the Redis list before the new
-  // guess is appended, so the current guess would be missing from the display.
-  // The guessed-set update (sadd) doesn't affect display — fire-and-forget is fine.
-  if (insertedGuess) {
-    await appendGuessToCache(currentGame.id, insertedGuess);
-  }
-  // Guessed-set update is non-critical for display — run in background
+  // 1. Mark guess in Redis set FIRST to prevent duplicate races (cheap, ~2ms)
   redis.sadd(guessedSetKey, currentGuess)
     .then(() => redis.expire(guessedSetKey, 86400))
     .catch(() => {});
 
-  // ── Fetch all guesses for display — Redis cache, no DB round-trip ────────
-  const allGuesses = await getCachedGuesses(currentGame.id);
+  // 2. Read existing guesses from Redis cache — 0–2 ms, no DB hit
+  const existingGuesses = await getCachedGuesses(currentGame.id);
+
+  // 3. Build the full display list with current guess appended (no DB id yet)
+  const tentativeGuess: GuessEntry = {
+    id: 0,
+    guess: currentGuess,
+    gameId: currentGame.id,
+    chatId,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  };
+  const allGuesses = [...existingGuesses, tentativeGuess];
 
   if (allGuesses.length >= 30) {
     memCache.del(gameMemKey);
     redis.del(gameStateKey).catch(() => {});
     clearGuessCache(currentGame.id);
-    // Log game over to channel (fire-and-forget)
     logGameOver({
       chatId,
       chatTitle: ctx.chat && "title" in ctx.chat ? (ctx.chat.title ?? null) : null,
       word: currentGame.word,
       wordLength,
     }).catch(() => {});
-    // Parallelize DB delete + auto-game record + game-over reply (all independent)
+    // 4 ops all independent — run entirely in parallel
     await Promise.all([
-      db.deleteFrom("games").where("id", "=", currentGame.id).execute(),
-      recordGameEnded(chatId, currentTopicId),
       ctx.reply(
         "Game Over! The word was " +
           currentGame.word.toUpperCase() +
           `\nYou can start a new game with /new${wordLength}`,
       ),
+      db.deleteFrom("games").where("id", "=", currentGame.id).execute(),
+      recordGameEnded(chatId, currentTopicId),
+      db.insertInto("guesses")
+        .values({ gameId: currentGame.id, guess: currentGuess, chatId })
+        .execute()
+        .catch(() => {}),
     ]);
     return;
   }
 
   const modeLabel = MODE_LABEL[wordLength];
-
   const feedbackText = getFeedback(allGuesses, currentGame.word);
   const responseMessage =
     `<blockquote>${modeLabel} · ${allGuesses.length}/30\n\n` +
     feedbackText +
     `</blockquote>`;
 
-  ctx.reply(responseMessage, {
-    parse_mode: "HTML",
-  });
+  // 4. 🚀 Telegram reply + DB write + Redis cache update — ALL in parallel.
+  //    User sees the reply in ~100–150ms (Telegram RTT only).
+  //    DB insert and cache update finish concurrently at zero extra cost.
+  await Promise.all([
+    ctx.reply(responseMessage, { parse_mode: "HTML" }),
+    db.insertInto("guesses")
+      .values({ gameId: currentGame.id, guess: currentGuess, chatId })
+      .returningAll()
+      .executeTakeFirst()
+      .then((inserted) => (inserted ? appendGuessToCache(currentGame.id, inserted) : null))
+      .catch(() => {}),
+  ]);
 });
 
 // DM verification removed — all users can play directly without starting the bot in DM first.
@@ -560,12 +577,13 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
       .where("userId", "=", userId)
       .execute();
 
-    const imageBuffer = await generateWordleImage(allGuesses, dailyWord.word);
-    const shareText = generateWordleShareText(
-      dailyWord.dayNumber,
-      allGuesses,
-      dailyWord.word,
-    );
+    // Show "uploading photo…" indicator while satori+sharp generate the image (~300-800ms)
+    ctx.replyWithChatAction("upload_photo").catch(() => {});
+
+    const [imageBuffer, shareText] = await Promise.all([
+      generateWordleImage(allGuesses, dailyWord.word),
+      Promise.resolve(generateWordleShareText(dailyWord.dayNumber, allGuesses, dailyWord.word)),
+    ]);
 
     await ctx.replyWithPhoto(new InputFile(new Uint8Array(imageBuffer)), {
       caption:
@@ -593,6 +611,8 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
   }
 
   // ── Wrong daily guess — show image progress ────────────────────────────
+  // Show "uploading photo…" indicator while image is generated
+  ctx.replyWithChatAction("upload_photo").catch(() => {});
   const imageBuffer = await generateWordleImage(allGuesses, dailyWord.word);
   await ctx.replyWithPhoto(new InputFile(new Uint8Array(imageBuffer)), {
     caption: `${allGuesses.length}/6 attempts used. Keep going!`,

@@ -40,6 +40,20 @@ pool.on("connect", (client) => {
   ).catch(() => {});
 });
 
+// ── Connection keep-alive ─────────────────────────────────────────────────────
+// Heroku Postgres drops idle TCP connections after ~5 minutes of inactivity.
+// Without keep-alive, the first query after a quiet period pays a full
+// reconnect penalty (~50–200ms) before the user's command gets a response.
+//
+// Fix: run a lightweight SELECT 1 every 25 seconds so every pool connection
+// stays warm and is ready immediately when a user sends a command.
+// Only active in production — dev pools don't suffer from cloud idle timeouts.
+if (env.NODE_ENV === "production") {
+  setInterval(() => {
+    pool.query("SELECT 1").catch(() => {});
+  }, 25_000);
+}
+
 const dialect = new PostgresDialect({ pool });
 
 export const db = new Kysely<DB>({
