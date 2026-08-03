@@ -129,10 +129,10 @@ export async function syncToGitHub(force = false): Promise<{ ok: boolean; messag
     try {
       const { redis } = await import("../config/redis");
       const lastSync = await redis.get("github:last_sync");
-      if (lastSync && Date.now() - parseInt(lastSync) < 60_000) {
-        return { ok: true, message: "Skipped — synced within last 60s." };
+      if (lastSync && Date.now() - parseInt(lastSync) < 300_000) {
+        return { ok: true, message: "Skipped — synced within last 5 min." };
       }
-      await redis.set("github:last_sync", Date.now().toString(), "EX", 120);
+      await redis.set("github:last_sync", Date.now().toString(), "EX", 360);
     } catch {}
   }
 
