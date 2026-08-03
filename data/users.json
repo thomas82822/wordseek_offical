@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:44:54.614Z",
+  "timestamp": "2026-08-03T09:45:14.063Z",
   "data": [
     {
       "id": "8761468045",
@@ -7072,6 +7072,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000022",
+      "name": "𝑲𝒖𝒄𝒉𝒖",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:50.894Z",
+      "updatedAt": "2026-08-03T09:45:10.046Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8928204983",
       "name": "༺✨ Alpha_strike✨༻",
       "username": null,
@@ -7217,16 +7227,6 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:44.181Z",
       "updatedAt": "2026-08-03T09:38:40.028Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000022",
-      "name": "𝑲𝒖𝒄𝒉𝒖",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:50.894Z",
-      "updatedAt": "2026-08-03T09:34:20.065Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -7460,16 +7460,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000015",
-      "name": "__soul_seller_",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:44.517Z",
-      "updatedAt": "2026-08-03T09:34:00.035Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "9900000024",
@@ -7760,6 +7750,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000015",
+      "name": "__soul_seller_",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.517Z",
+      "updatedAt": "2026-08-03T09:45:00.037Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "6632280117",
@@ -9372,6 +9372,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000037",
+      "name": "𓂀99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:54.429Z",
+      "updatedAt": "2026-08-03T09:45:10.588Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "6346406999",
       "name": "Vøltãgë Priñcë",
       "username": "Dessgoldsexxx",
@@ -9782,16 +9792,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000037",
-      "name": "𓂀99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:54.429Z",
-      "updatedAt": "2026-08-03T09:42:30.075Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "9900000040",
       "name": "ᕿᓎᖇᑗS",
       "username": null,
@@ -9900,16 +9900,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "8894206496",
-      "name": "乛\" 𝐃 𝐨 𝐫 𝐚\"_💗-",
-      "username": null,
-      "createdAt": "2026-07-23T01:34:33.835Z",
-      "updatedAt": "2026-08-03T09:34:15.958Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8591379922",
@@ -10080,6 +10070,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "8894206496",
+      "name": "乛\" 𝐃 𝐨 𝐫 𝐚\"_💗-",
+      "username": null,
+      "createdAt": "2026-07-23T01:34:33.835Z",
+      "updatedAt": "2026-08-03T09:44:59.490Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8551225435",
