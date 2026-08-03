@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:44:36.793Z",
+  "timestamp": "2026-08-03T09:44:54.614Z",
   "data": [
     {
       "id": "8761468045",
@@ -7042,6 +7042,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000016",
+      "name": "trishu🕊️",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.840Z",
+      "updatedAt": "2026-08-03T09:44:40.034Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7979914854",
       "name": "一⋆𝐂𝐡̴𝛂֟֯፝͜͡𝐡𝛂𝛕💖",
       "username": null,
@@ -7057,16 +7067,6 @@
       "username": null,
       "createdAt": "2026-07-22T19:41:15.187Z",
       "updatedAt": "2026-07-25T12:52:32.068Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000016",
-      "name": "trishu🕊️",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:44.840Z",
-      "updatedAt": "2026-08-03T09:34:40.033Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
