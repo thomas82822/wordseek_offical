@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T10:05:09.530Z",
+  "timestamp": "2026-08-03T10:11:11.010Z",
   "data": [
     {
       "id": 3637,
@@ -47,21 +47,21 @@
       "topicId": "general"
     },
     {
-      "id": 5195,
-      "word": "howl",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T10:04:57.395Z",
-      "updatedAt": "2026-08-03T10:04:57.395Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
       "id": 291,
       "word": "tepid",
       "activeChat": "8668222760",
       "createdAt": "2026-07-19T01:59:59.202Z",
       "updatedAt": "2026-07-19T01:59:59.202Z",
       "startedBy": "8668222760",
+      "topicId": "general"
+    },
+    {
+      "id": 5197,
+      "word": "stop",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-03T10:11:11.005Z",
+      "updatedAt": "2026-08-03T10:11:11.005Z",
+      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
