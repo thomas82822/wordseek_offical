@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T15:10:38.396Z",
+  "timestamp": "2026-08-03T15:11:13.521Z",
   "data": [
     {
       "id": "8761468045",
@@ -8332,6 +8332,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000021",
+      "name": "𓍯Неониллаᖭི༏ᖫྀ💕",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:50.799Z",
+      "updatedAt": "2026-08-03T15:11:00.104Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8379194661",
       "name": "⎯꯭֯🌸⃪ ⁠⁠⁠⁠꯭ ‌‌𓆩⁠⁠⁠⁠ ꯭ᷟ𓆩꯭𝐀꯭𝐚꯭𝐬꯭𝐡꯭𝐢⁠⁠⁠꯭꧕꯭༎ࠫ𓍢ִ໋ ⃪𝄀꯭𝄄꯭ا𝂜꯭𓍰꯭༐꯭𝄢꯭🕊",
       "username": null,
@@ -8367,16 +8377,6 @@
       "username": null,
       "createdAt": "2026-07-16T11:35:15.690Z",
       "updatedAt": "2026-08-03T14:59:10.017Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000021",
-      "name": "𓍯Неониллаᖭི༏ᖫྀ💕",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:50.799Z",
-      "updatedAt": "2026-08-03T15:02:20.097Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11092,16 +11092,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000048",
-      "name": "𓆩꯭𝐌𝗮𝘅𝘅𓏲",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.181Z",
-      "updatedAt": "2026-08-03T15:02:20.186Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7555432623",
       "name": "ㅤㅤㅤ𑁯꯭𝖬꯭𝗋 ち ៸៸ 𝖲꯭𝗎𝗉𝗋𝖾𝗆𝖺𝖼𝗒 𑁯꯭ꪫ۟ ۫ 𝖤𝗆𝗉𝗂𝗋𝖾 ぃ  ׅ",
       "username": "MrSupremacy",
@@ -11137,6 +11127,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:57.732Z",
       "updatedAt": "2026-08-03T13:47:00.208Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000048",
+      "name": "𓆩꯭𝐌𝗮𝘅𝘅𓏲",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.181Z",
+      "updatedAt": "2026-08-03T15:11:00.210Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
