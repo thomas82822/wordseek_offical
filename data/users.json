@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T10:02:02.298Z",
+  "timestamp": "2026-08-03T10:02:17.803Z",
   "data": [
     {
       "id": "8761468045",
@@ -6852,16 +6852,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000023",
-      "name": "_ϻΔѕтє☈ִֶָ𓂃 ࣪.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.068Z",
-      "updatedAt": "2026-08-03T09:51:30.046Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7577411312",
       "name": "𝐕 𝐢 𝐧 𝐜 𝐞 𝐧 𝐳 𝐨 ♔",
       "username": "lI_VINCENZO_Il",
@@ -7220,6 +7210,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000023",
+      "name": "𝑲𝒖𝒄𝒉𝒖 �.",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.068Z",
+      "updatedAt": "2026-08-03T10:02:10.045Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "9900000013",
@@ -10132,6 +10132,16 @@
       "dmStarted": false
     },
     {
+      "id": "8894206496",
+      "name": "乛\" 𝐃 𝐨 𝐫 𝐚\"_💗-",
+      "username": null,
+      "createdAt": "2026-07-23T01:34:33.835Z",
+      "updatedAt": "2026-08-03T10:02:12.334Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8991299808",
       "name": "𝐓‌υsʜᴧꝛ 🩵",
       "username": null,
@@ -10280,16 +10290,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "8894206496",
-      "name": "乛\" 𝐃 𝐨 𝐫 𝐚\"_💗-",
-      "username": null,
-      "createdAt": "2026-07-23T01:34:33.835Z",
-      "updatedAt": "2026-08-03T09:50:53.636Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8587680843",
