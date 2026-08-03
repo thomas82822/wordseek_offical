@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-03T09:55:57.769Z",
+  "timestamp": "2026-08-03T09:59:11.865Z",
   "data": [
-    {
-      "id": 5080,
-      "word": "snub",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T05:59:19.342Z",
-      "updatedAt": "2026-08-03T05:59:19.342Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
