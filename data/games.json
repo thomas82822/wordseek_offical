@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:43:39.782Z",
+  "timestamp": "2026-08-03T09:43:52.588Z",
   "data": [
     {
       "id": 5080,
@@ -71,15 +71,6 @@
       "createdAt": "2026-07-19T01:59:59.202Z",
       "updatedAt": "2026-07-19T01:59:59.202Z",
       "startedBy": "8668222760",
-      "topicId": "general"
-    },
-    {
-      "id": 5139,
-      "word": "soap",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-03T09:43:39.737Z",
-      "updatedAt": "2026-08-03T09:43:39.737Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     },
     {

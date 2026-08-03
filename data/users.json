@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:43:39.782Z",
+  "timestamp": "2026-08-03T09:43:52.588Z",
   "data": [
     {
       "id": "8761468045",
@@ -10082,16 +10082,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000055",
-      "name": "Hema07",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:58.543Z",
-      "updatedAt": "2026-08-03T09:33:50.112Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8551225435",
       "name": "✿✧𝓐𝓪𝓷𝒶𝔂𝓪✧✿",
       "username": null,
@@ -10382,6 +10372,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000055",
+      "name": "Hema07",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:58.543Z",
+      "updatedAt": "2026-08-03T09:43:50.117Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "5965929337",
       "name": "꫟┋ʙʟᴀᴄᴋ ɢᴏᴋᴜ ☂︎",
       "username": "Nerixoo",
@@ -10632,16 +10632,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000001",
-      "name": "༏𝆺𝅥⎯ꨄ ➺",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.071Z",
-      "updatedAt": "2026-08-03T09:42:10.009Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8497280793",
       "name": "Sᴜᴋʜ 𓆩Oʟᴅ VᴇʀꜱɪᴏN~🇦🇱𓆪",
       "username": "OG_SUKH",
@@ -10772,16 +10762,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000058",
-      "name": "$$$$_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:59.409Z",
-      "updatedAt": "2026-08-03T09:35:10.103Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8816095621",
       "name": "TANISHA",
       "username": "Anamika_Paid_91",
@@ -10810,6 +10790,26 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000058",
+      "name": "$$$$_xd",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:59.409Z",
+      "updatedAt": "2026-08-03T09:43:40.374Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000001",
+      "name": "༏𝆺𝅥⎯ꨄ ➺",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.071Z",
+      "updatedAt": "2026-08-03T09:43:50.009Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "9900000011",
