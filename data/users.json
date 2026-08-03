@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:47:12.399Z",
+  "timestamp": "2026-08-03T09:47:41.083Z",
   "data": [
     {
       "id": "8761468045",
@@ -7592,16 +7592,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000006",
-      "name": "Rubby99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:31.571Z",
-      "updatedAt": "2026-08-03T09:37:50.015Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7636534647",
       "name": "Juned Aalam",
       "username": null,
@@ -7767,6 +7757,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:44.517Z",
       "updatedAt": "2026-08-03T09:45:00.037Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000006",
+      "name": "Rubby99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:31.571Z",
+      "updatedAt": "2026-08-03T09:47:30.015Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11022,16 +11022,6 @@
       "dmStarted": false
     },
     {
-      "id": "6367691019",
-      "name": "- 𝚨 𝚳 𝚰 𝚻 </3",
-      "username": "buyingflag",
-      "createdAt": "2026-07-16T08:43:13.075Z",
-      "updatedAt": "2026-08-03T09:42:07.783Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "6407947411",
       "name": "❛.𝁘ໍ 𝚰 ꪀ ⋎ ᰻ ටි ᰻ 𝛃 ᰻ ㄥ 𝛜 .",
       "username": null,
@@ -11110,6 +11100,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
+    },
+    {
+      "id": "6367691019",
+      "name": "- 𝚨 𝚳 𝚰 𝚻 </3",
+      "username": "buyingflag",
+      "createdAt": "2026-07-16T08:43:13.075Z",
+      "updatedAt": "2026-08-03T09:47:20.305Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
     },
     {
       "id": "7473021518",
