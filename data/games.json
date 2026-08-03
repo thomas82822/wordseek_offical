@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T10:00:30.879Z",
+  "timestamp": "2026-08-03T10:01:49.804Z",
   "data": [
     {
       "id": 3637,
@@ -170,15 +170,6 @@
       "createdAt": "2026-07-31T09:55:46.126Z",
       "updatedAt": "2026-07-31T09:55:46.126Z",
       "startedBy": "7413954673",
-      "topicId": "general"
-    },
-    {
-      "id": 5188,
-      "word": "stem",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T10:00:30.874Z",
-      "updatedAt": "2026-08-03T10:00:30.874Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     }
   ]
