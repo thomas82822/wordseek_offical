@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T08:59:30.987Z",
+  "timestamp": "2026-08-03T08:59:45.869Z",
   "data": [
     {
       "id": "8761468045",
@@ -8902,6 +8902,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000003",
+      "name": "PS07",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.285Z",
+      "updatedAt": "2026-08-03T08:59:40.019Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7731028723",
       "name": "🙃Krunal 🙃",
       "username": "Krunasharma",
@@ -8960,16 +8970,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000003",
-      "name": "PS07",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.285Z",
-      "updatedAt": "2026-08-03T08:50:50.015Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "6213088291",
@@ -9472,16 +9472,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000057",
-      "name": "🚩㍿┋𝗗𝗔𝗞𝗨.𝗙𝗜𝗚𝗛𝗧𝗘𝗥🎙️ᯓ",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:59.123Z",
-      "updatedAt": "2026-08-03T08:51:30.175Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7070200203",
       "name": ":)🕊️🧸",
       "username": null,
@@ -9690,6 +9680,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000057",
+      "name": "🚩㍿┋𝗗𝗔𝗞𝗨.𝗙𝗜𝗚𝗛𝗧𝗘𝗥🎙️ᯓ",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:59.123Z",
+      "updatedAt": "2026-08-03T08:59:40.271Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "7731760456",
@@ -10652,16 +10652,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000014",
-      "name": "⬎‌⎯꯭‌꯭𝐊07",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:44.445Z",
-      "updatedAt": "2026-08-03T08:51:10.034Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8767028928",
       "name": "- ❛ 𝐃𝚵𝐀𝐓┣𝐥 ❜✘ ⌯ ❰ 𝐄𝚴𝐅𝐎𝐑𝐂𝐄𝐑 ❱",
       "username": "Avoid_Death",
@@ -10812,6 +10802,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000014",
+      "name": "⬎‌⎯꯭‌꯭𝐊07",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.445Z",
+      "updatedAt": "2026-08-03T08:59:40.083Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "9900000011",
       "name": "─",
       "username": null,
@@ -10957,6 +10957,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:57.732Z",
       "updatedAt": "2026-08-03T08:59:20.130Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000050",
+      "name": "↬꯭ᬃ Jr",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.454Z",
+      "updatedAt": "2026-08-03T08:59:40.191Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11297,16 +11307,6 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:54.985Z",
       "updatedAt": "2026-08-03T08:54:00.115Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000050",
-      "name": "↬꯭ᬃ Jr",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.454Z",
-      "updatedAt": "2026-08-03T08:48:30.074Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
