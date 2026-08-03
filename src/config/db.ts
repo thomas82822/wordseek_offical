@@ -25,7 +25,7 @@ const pool = new Pool({
   connectionString: env.DATABASE_URL,
   max: env.NODE_ENV === "production" ? 10 : 5,
   idleTimeoutMillis: 30_000,       // Release idle connections after 30 s
-  connectionTimeoutMillis: 3_000,  // Fail fast if pool is exhausted (3 s)
+  connectionTimeoutMillis: 8_000,  // Wait up to 8 s for a pool slot (was 3 s — too short, caused silent drops)
   ssl:
     env.NODE_ENV === "production"
       ? { rejectUnauthorized: false }

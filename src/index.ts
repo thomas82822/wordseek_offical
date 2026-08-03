@@ -25,6 +25,35 @@ import { dirname } from "path";
 const LOCAL_BANNER_PATH = "./src/data/banner.png";
 const GITHUB_BANNER_PATH = "src/data/banner.png";
 
+// ── Concurrency queue for webhook updates ─────────────────────────────────────
+// Limits simultaneous bot.handleUpdate() calls to MAX_CONCURRENT (8) so the
+// Postgres pool (max 10) is never exhausted.  Updates beyond the limit are
+// held in a local queue and processed FIFO as slots free up.
+// This is the fix for "5× command repeat" — previously 100 concurrent updates
+// raced for 10 DB connections; losers timed out and replied with nothing.
+const MAX_CONCURRENT = 8;
+let _activeCount = 0;
+const _updateQueue: object[] = [];
+
+function drainQueue(): void {
+  while (_activeCount < MAX_CONCURRENT && _updateQueue.length > 0) {
+    const update = _updateQueue.shift()!;
+    _activeCount++;
+    bot.handleUpdate(update)
+      .catch((err) => console.error("[webhook] handleUpdate error:", err))
+      .finally(() => {
+        _activeCount--;
+        drainQueue(); // process next queued update when slot frees
+      });
+  }
+}
+
+function enqueueUpdate(update: object): void {
+  _updateQueue.push(update);
+  drainQueue();
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
 async function main() {
   console.log("Starting Wordseek Bot...");
 
@@ -104,34 +133,34 @@ async function main() {
       }
 
       if (req.method === "POST" && req.url === "/webhook") {
-        // ── Maximum-speed webhook path ─────────────────────────────────────
-        // 1. Ack Telegram IMMEDIATELY (200 OK) before processing — Telegram
-        //    marks the update as delivered the instant it sees the 200, so
-        //    delivery latency is zero regardless of how long our handler takes.
-        // 2. Parse the body and process in the background so we never block
-        //    the TCP socket waiting for business logic to finish.
+        // ── Concurrency-limited webhook handler ────────────────────────────
+        // ROOT CAUSE FIX: Telegram was sending up to 100 simultaneous updates
+        // (max_connections=100) but the DB pool only has 10 connections.
+        // When 100 updates hit at once, 90+ waited 3s for a DB connection,
+        // then silently failed → user had to resend commands 5× to get a reply.
+        //
+        // Fix: hard limit concurrent handleUpdate calls to MAX_CONCURRENT (8).
+        // Updates beyond the limit are queued (not dropped) in a local array
+        // and drained one-by-one as slots free up.  Telegram already got 200 OK
+        // so it won't resend — our queue owns the pending updates.
         const chunks: Buffer[] = [];
 
         req.on("data", (chunk: Buffer) => chunks.push(chunk));
         req.on("end", () => {
-          // Respond to Telegram FIRST — absolutely zero processing delay
+          // Ack Telegram FIRST — zero delivery latency
           res.writeHead(200).end();
 
-          // Parse and handle asynchronously after Telegram already got its 200
           try {
             const body = Buffer.concat(chunks).toString("utf-8");
             const update = JSON.parse(body);
-            // Fire-and-forget — errors are caught by bot.catch(errorHandler)
-            bot.handleUpdate(update).catch((err) => {
-              console.error("[webhook] handleUpdate error:", err);
-            });
+            enqueueUpdate(update);
           } catch (err) {
             console.error("[webhook] Parse error:", err);
           }
         });
         req.on("error", (err) => {
           console.error("[webhook] Request error:", err);
-          res.writeHead(200).end(); // still ack so Telegram doesn't retry
+          res.writeHead(200).end();
         });
         return;
       }
@@ -143,7 +172,9 @@ async function main() {
       try {
         await bot.api.setWebhook(`${env.APP_URL}/webhook`, {
           allowed_updates: ["message", "callback_query", "my_chat_member", "message_reaction"],
-          max_connections: 100, // Telegram concurrency: up to 100 simultaneous connections
+          // Lowered from 100 → 8 to match DB pool size (10) with headroom.
+          // Telegram now sends max 8 simultaneous requests — no more pool exhaustion.
+          max_connections: 8,
         });
         console.log(`Webhook mode active: ${env.APP_URL}/webhook  (port ${PORT})`);
       } catch (err) {
