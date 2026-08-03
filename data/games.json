@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-03T12:17:51.711Z",
+  "timestamp": "2026-08-03T14:30:00.004Z",
   "data": [
-    {
-      "id": 5243,
-      "word": "wilt",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T12:17:51.705Z",
-      "updatedAt": "2026-08-03T12:17:51.705Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
