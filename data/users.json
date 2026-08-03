@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:51:14.151Z",
+  "timestamp": "2026-08-03T11:51:26.358Z",
   "data": [
     {
       "id": "8761468045",
@@ -8782,16 +8782,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000003",
-      "name": "Govind J.",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.285Z",
-      "updatedAt": "2026-08-03T11:42:30.015Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "5454989987",
       "name": "I LOVE YOU 💜 😘😘😘",
       "username": "Varun0000000007",
@@ -8817,6 +8807,16 @@
       "username": "GroupAnonymousBot",
       "createdAt": "2026-07-30T16:17:07.213Z",
       "updatedAt": "2026-07-30T16:17:07.213Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000003",
+      "name": "Govind J.",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.285Z",
+      "updatedAt": "2026-08-03T11:51:20.010Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9532,16 +9532,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000037",
-      "name": "𓂀",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:54.429Z",
-      "updatedAt": "2026-08-03T11:48:10.071Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7469835430",
       "name": "❛ .𝁘ໍ𝗦꯭ᴍ꯭ɪ꯭ʟ꯭ᴇ꯭ 𝗕꯭ᴏ꯭ʏ꯭𓆪ִֶָ ֺ⎯꯭‌ 𓆩💗𓆪𓈒",
       "username": "Ur_crush420",
@@ -9777,6 +9767,16 @@
       "username": null,
       "createdAt": "2026-07-16T08:39:58.362Z",
       "updatedAt": "2026-08-02T12:22:07.203Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000037",
+      "name": "𓂀",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:54.429Z",
+      "updatedAt": "2026-08-03T11:51:20.094Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
