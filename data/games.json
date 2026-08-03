@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T16:37:42.463Z",
+  "timestamp": "2026-08-03T16:51:21.243Z",
   "data": [
     {
       "id": 3637,
@@ -128,15 +128,6 @@
       "topicId": "general"
     },
     {
-      "id": 5276,
-      "word": "studio",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-03T15:41:32.815Z",
-      "updatedAt": "2026-08-03T15:41:32.815Z",
-      "startedBy": "8311195623",
-      "topicId": "general"
-    },
-    {
       "id": 3731,
       "word": "bind",
       "activeChat": "-1002633411148",
@@ -173,12 +164,12 @@
       "topicId": "general"
     },
     {
-      "id": 5288,
-      "word": "pipe",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-03T16:37:42.458Z",
-      "updatedAt": "2026-08-03T16:37:42.458Z",
-      "startedBy": "8098146730",
+      "id": 5292,
+      "word": "clap",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-03T16:51:21.239Z",
+      "updatedAt": "2026-08-03T16:51:21.239Z",
+      "startedBy": "8311195623",
       "topicId": "general"
     },
     {
