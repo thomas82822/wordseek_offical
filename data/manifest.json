@@ -1,19 +1,19 @@
 {
-  "lastSync": "2026-08-01T10:34:59.389Z",
+  "lastSync": "2026-08-03T08:52:56.585Z",
   "counts": {
-    "users": 1061,
-    "leaderboard": 50860,
-    "bannedUsers": 1,
+    "users": 1143,
+    "leaderboard": 75699,
+    "bannedUsers": 0,
     "botAdmins": 2,
     "frozenUsers": 0,
     "userStats": 1,
-    "userChats": 1315,
-    "games": 19,
-    "guesses": 24,
+    "userChats": 1403,
+    "games": 21,
+    "guesses": 39,
     "authorizedUsers": 0,
     "chatGameTopics": 0,
-    "broadcastChats": 77,
-    "dailyWords": 16,
+    "broadcastChats": 79,
+    "dailyWords": 17,
     "dailyGuesses": 0
   }
 }
