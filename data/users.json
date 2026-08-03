@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:54:28.751Z",
+  "timestamp": "2026-08-03T09:54:39.914Z",
   "data": [
     {
       "id": "8761468045",
@@ -10602,16 +10602,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000053",
-      "name": "⎯꯭֯🖤⃪",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.998Z",
-      "updatedAt": "2026-08-03T09:52:40.183Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7583421723",
       "name": "⌯ 𝚳ʀ ⁃/ 𝐊𝚪𝚰𝛅𝚮𝚴𝚨 ⌯ 🜲 ˹ 𝐎ᴘ ˼ #𝐌᧘н᧘ᴅ𝛆ꪜ𝁘𝛊֟፝ؖ۬s𝁘𝐅𝛆𝛆ʟɪ֟ɴɢs 🫀»",
       "username": "l_Jai_Shree_Krishna_l",
@@ -10750,6 +10740,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000053",
+      "name": "⎯꯭֯🖤⃪",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.998Z",
+      "updatedAt": "2026-08-03T09:54:30.101Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8753110661",
@@ -11232,16 +11232,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000050",
-      "name": "↬꯭ᬃ Jr",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.454Z",
-      "updatedAt": "2026-08-03T09:43:20.121Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8251509481",
       "name": "Lipi Priyadarshini",
       "username": null,
@@ -11380,6 +11370,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000050",
+      "name": "↬꯭ᬃ Jr",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.454Z",
+      "updatedAt": "2026-08-03T09:54:30.087Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8982762980",
