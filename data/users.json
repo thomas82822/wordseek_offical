@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:45:54.342Z",
+  "timestamp": "2026-08-03T09:46:02.999Z",
   "data": [
     {
       "id": "8761468045",
@@ -9212,16 +9212,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000028",
-      "name": "TNR S.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.980Z",
-      "updatedAt": "2026-08-03T09:39:50.055Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8575263696",
       "name": "𝀈 ᗫ 𖩩 𐌼 ꪮ 𑊠 ִֶָ",
       "username": "TAG_DEMON",
@@ -9787,6 +9777,16 @@
       "username": null,
       "createdAt": "2026-07-16T08:39:58.362Z",
       "updatedAt": "2026-08-02T12:22:07.203Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000028",
+      "name": "TNR S.",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.980Z",
+      "updatedAt": "2026-08-03T09:46:00.057Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
