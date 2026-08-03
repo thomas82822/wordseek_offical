@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T15:51:48.476Z",
+  "timestamp": "2026-08-03T15:54:30.539Z",
   "data": [
     {
       "userId": "8764986338",
@@ -135,13 +135,6 @@
       "lastSeenAt": "2026-07-16T07:15:12.354Z"
     },
     {
-      "userId": "6617854255",
-      "chatId": "-1002259084367",
-      "chatTitle": "🍷HbD HunteR... Majdur 💋🥂",
-      "firstSeenAt": "2026-07-16T06:09:59.636Z",
-      "lastSeenAt": "2026-08-03T14:52:37.921Z"
-    },
-    {
       "userId": "8602536200",
       "chatId": "-1004408168512",
       "chatTitle": "Wordseek testing",
@@ -231,6 +224,13 @@
       "chatTitle": "⎯ 𝗚𝗼⃪𝘀𝘀⃪𝗶𝗽⎯ ᳟‌⃝🍒𝗭𝗼⃪𝗻𝞊\"⎯",
       "firstSeenAt": "2026-07-17T04:03:22.711Z",
       "lastSeenAt": "2026-07-20T03:55:45.833Z"
+    },
+    {
+      "userId": "6617854255",
+      "chatId": "-1002259084367",
+      "chatTitle": "🍷HbD HunteR... Majdur 💋🥂",
+      "firstSeenAt": "2026-07-16T06:09:59.636Z",
+      "lastSeenAt": "2026-08-03T15:53:16.373Z"
     },
     {
       "userId": "7626703217",
