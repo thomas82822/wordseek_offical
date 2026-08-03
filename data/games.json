@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T16:51:21.243Z",
+  "timestamp": "2026-08-03T17:44:06.430Z",
   "data": [
     {
       "id": 3637,
@@ -164,12 +164,12 @@
       "topicId": "general"
     },
     {
-      "id": 5292,
-      "word": "clap",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-03T16:51:21.239Z",
-      "updatedAt": "2026-08-03T16:51:21.239Z",
-      "startedBy": "8311195623",
+      "id": 5293,
+      "word": "warn",
+      "activeChat": "-1002259084367",
+      "createdAt": "2026-08-03T17:44:06.418Z",
+      "updatedAt": "2026-08-03T17:44:06.418Z",
+      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
