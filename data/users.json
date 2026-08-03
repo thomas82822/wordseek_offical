@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T11:55:35.624Z",
+  "timestamp": "2026-08-03T11:55:48.869Z",
   "data": [
     {
       "id": "8761468045",
@@ -11392,6 +11392,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000051",
+      "name": "Unknown_xd",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.475Z",
+      "updatedAt": "2026-08-03T11:55:40.096Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "9900000032",
       "name": "Maya",
       "username": null,
@@ -11430,16 +11440,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000051",
-      "name": "Unknown_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.475Z",
-      "updatedAt": "2026-08-03T11:37:10.138Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "9900000045",
