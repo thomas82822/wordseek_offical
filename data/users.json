@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:53:29.518Z",
+  "timestamp": "2026-08-03T09:53:38.486Z",
   "data": [
     {
       "id": "8761468045",
@@ -11042,16 +11042,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000048",
-      "name": "ᯓ𝁘ໍ˹𝐃07",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.181Z",
-      "updatedAt": "2026-08-03T09:46:50.104Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "5037889838",
       "name": "𓆩 ⃟🔱𓆪𝐊ᴀʟᴀᴋᴀᴀ𝐑الہ 🇮🇳 ⃝࿐",
       "username": null,
@@ -11120,6 +11110,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000048",
+      "name": "ᯓ𝁘ໍ˹𝐃07",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.181Z",
+      "updatedAt": "2026-08-03T09:53:30.327Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8524280468",
