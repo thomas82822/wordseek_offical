@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:52:57.034Z",
+  "timestamp": "2026-08-03T09:53:03.785Z",
   "data": [
     {
       "id": "8761468045",
@@ -8832,16 +8832,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000056",
-      "name": "𝗢𝗣 ⏤",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:58.837Z",
-      "updatedAt": "2026-08-03T09:41:50.385Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "1794841741",
       "name": "⏤꯭𓆩꯭🥀4ˢᵗ• ⃟⃟⃝⃪‌‌‌‌‌‌‌•‌‌‌‌🇷‌🇴‌‌🇭‌🇮‌🇹• ⃟⃟⃝⃪𝆺꯭𝅥💞 𝅃꯭᳚➛•𔘓⃭❍͢͠ᴘ",
       "username": "RRRmohit",
@@ -8900,6 +8890,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000056",
+      "name": "𝗢𝗣 ⏤",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:58.837Z",
+      "updatedAt": "2026-08-03T09:53:00.112Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "7731028723",
