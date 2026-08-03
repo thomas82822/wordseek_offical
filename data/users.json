@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:47:41.083Z",
+  "timestamp": "2026-08-03T09:47:56.480Z",
   "data": [
     {
       "id": "8761468045",
@@ -11122,6 +11122,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000044",
+      "name": "𝚱_xd",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.368Z",
+      "updatedAt": "2026-08-03T09:47:50.087Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8524280468",
       "name": "𝒉𝒊𝒏𝒂𝒕𝒂𓂃🥀",
       "username": "Hinata_worlds",
@@ -11407,16 +11417,6 @@
       "username": "Mine9934",
       "createdAt": "2026-07-17T11:40:37.557Z",
       "updatedAt": "2026-08-03T08:14:38.076Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000044",
-      "name": "𝚱_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.368Z",
-      "updatedAt": "2026-08-03T09:45:30.091Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
