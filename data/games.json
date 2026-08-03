@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:48:02.694Z",
+  "timestamp": "2026-08-03T09:48:18.471Z",
   "data": [
     {
       "id": 5080,
@@ -125,15 +125,6 @@
       "createdAt": "2026-07-22T00:12:08.916Z",
       "updatedAt": "2026-07-22T00:12:08.916Z",
       "startedBy": "5822644571",
-      "topicId": "general"
-    },
-    {
-      "id": 5154,
-      "word": "wind",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-03T09:47:56.475Z",
-      "updatedAt": "2026-08-03T09:47:56.475Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     },
     {

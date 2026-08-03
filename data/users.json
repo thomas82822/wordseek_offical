@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:48:02.694Z",
+  "timestamp": "2026-08-03T09:48:18.471Z",
   "data": [
     {
       "id": "8761468045",
@@ -11142,6 +11142,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000047",
+      "name": "ᴍɪɴɪ",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.938Z",
+      "updatedAt": "2026-08-03T09:48:10.090Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8608277109",
       "name": "M",
       "username": null,
@@ -11277,16 +11287,6 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:56.101Z",
       "updatedAt": "2026-08-03T09:43:30.085Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000047",
-      "name": "ᴍɪɴɪ",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.938Z",
-      "updatedAt": "2026-08-03T09:39:10.107Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
