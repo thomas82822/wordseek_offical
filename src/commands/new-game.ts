@@ -31,12 +31,25 @@ async function startGame(
       if (!guard.ok) return ctx.reply(guard.message);
     }
 
-    const topicSettings = await db
-      .selectFrom("chatGameTopics")
-      .selectAll()
-      .where("chatId", "=", chatId.toString())
-      .where("topicId", "=", topicId)
-      .executeTakeFirst();
+    // Redis-cached topic settings — avoids a DB hit on every /new command.
+    // Cache key matches the pattern used in requireAllowedTopic so the data
+    // stays consistent.  TTL = 5 min (300 s); invalidated by setgametopic/unsetgametopic.
+    let topicSettings: any;
+    const topicSettingsCacheKey = `topic_settings:${chatId}:${topicId}`;
+    try {
+      const cached = await redis.get(topicSettingsCacheKey);
+      if (cached !== null) topicSettings = JSON.parse(cached);
+    } catch {}
+    if (topicSettings === undefined) {
+      topicSettings = await db
+        .selectFrom("chatGameTopics")
+        .selectAll()
+        .where("chatId", "=", chatId.toString())
+        .where("topicId", "=", topicId)
+        .executeTakeFirst() ?? null;
+      // Cache both hit (object) and miss (null) to avoid repeated DB hits
+      redis.set(topicSettingsCacheKey, JSON.stringify(topicSettings), "EX", 300).catch(() => {});
+    }
 
     const allowedLengths: WordLength[] =
       (topicSettings?.allowedLengths as WordLength[]) ?? GLOBAL_VALID_LENGTHS;

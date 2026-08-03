@@ -66,6 +66,51 @@ export const dailyWordleSchema = z.object({
   date: z.string(),
 });
 
+// ── Speed fix: Redis-cached daily guesses ────────────────────────────────────
+// Daily guesses are stored in a Redis list "daily_guesses:<userId>:<dailyWordId>".
+// Before this fix, EVERY guess loaded all previous guesses from Postgres — a full
+// table scan per user per guess.  With Redis the list is built incrementally and
+// served from memory (0–2 ms) on every subsequent guess.
+// TTL = 90 000 s (25 h) — same as the daily word cache so they expire together.
+const DAILY_GUESSES_TTL = 90_000;
+
+async function getCachedDailyGuesses(userId: string, dailyWordId: number): Promise<any[]> {
+  const cacheKey = `daily_guesses:${userId}:${dailyWordId}`;
+  try {
+    const raw = await redis.lrange(cacheKey, 0, -1);
+    if (raw && raw.length > 0) return raw.map((r) => JSON.parse(r));
+  } catch {}
+  // Cache miss — load from DB and warm the cache
+  const rows = await db
+    .selectFrom("dailyGuesses")
+    .selectAll()
+    .where("userId", "=", userId)
+    .where("dailyWordId", "=", dailyWordId)
+    .orderBy("attemptNumber", "asc")
+    .execute();
+  if (rows.length > 0) {
+    const pipeline = redis.pipeline();
+    for (const row of rows) pipeline.rpush(cacheKey, JSON.stringify(row));
+    pipeline.expire(cacheKey, DAILY_GUESSES_TTL);
+    pipeline.exec().catch(() => {});
+  }
+  return rows;
+}
+
+async function appendDailyGuessToCache(userId: string, dailyWordId: number, guess: object): Promise<void> {
+  const cacheKey = `daily_guesses:${userId}:${dailyWordId}`;
+  try {
+    await redis.pipeline()
+      .rpush(cacheKey, JSON.stringify(guess))
+      .expire(cacheKey, DAILY_GUESSES_TTL)
+      .exec();
+  } catch {}
+}
+
+function clearDailyGuessCache(userId: string, dailyWordId: number): void {
+  redis.del(`daily_guesses:${userId}:${dailyWordId}`).catch(() => {});
+}
+
 // ── Speed fix: Redis-cached guess list ─────────────────────────────────────
 // Guesses are stored in a Redis list "game_guesses:<gameId>" so we NEVER hit
 // the DB again after the initial game-state lookup.  The list is built
@@ -432,13 +477,8 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
     );
   }
 
-  const existingGuesses = await db
-    .selectFrom("dailyGuesses")
-    .selectAll()
-    .where("userId", "=", userId)
-    .where("dailyWordId", "=", dailyWord.id)
-    .orderBy("attemptNumber", "asc")
-    .execute();
+  // Redis-cached — no DB hit on every guess (was hitting DB on every single guess before)
+  const existingGuesses = await getCachedDailyGuesses(userId, dailyWord.id);
 
   const alreadyGuessed = existingGuesses.some((g) => g.guess === currentGuess);
   if (alreadyGuessed) {
@@ -460,7 +500,7 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
 
   const attemptNumber = existingGuesses.length + 1;
 
-  await db
+  const insertedDailyGuess = await db
     .insertInto("dailyGuesses")
     .values({
       userId,
@@ -468,9 +508,17 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
       guess: currentGuess,
       attemptNumber,
     })
-    .execute();
+    .returningAll()
+    .executeTakeFirst();
 
-  const allGuesses = [...existingGuesses, { id: 0, userId, dailyWordId: dailyWord.id, guess: currentGuess, attemptNumber, createdAt: new Date(), updatedAt: new Date() }];
+  // Append to Redis cache immediately so subsequent reads skip DB
+  if (insertedDailyGuess) {
+    await appendDailyGuessToCache(userId, dailyWord.id, insertedDailyGuess);
+  }
+
+  const allGuesses = insertedDailyGuess
+    ? [...existingGuesses, insertedDailyGuess]
+    : [...existingGuesses, { id: 0, userId, dailyWordId: dailyWord.id, guess: currentGuess, attemptNumber, createdAt: new Date(), updatedAt: new Date() }];
 
   if (currentGuess === dailyWord.word) {
     await redis.del(`daily_wordle:${userId}`);
@@ -532,11 +580,14 @@ async function handleDailyWordleGuess(ctx: Context, currentGuess: string) {
       },
     });
 
+    // Clear daily guess cache — game is over for this user today
+    clearDailyGuessCache(userId, dailyWord.id);
     reactWithRandom(ctx);
     return;
   }
 
   if (allGuesses.length >= 6) {
+    clearDailyGuessCache(userId, dailyWord.id);
     await handleDailyWordleLoss(ctx, dailyWord, allGuesses);
     return;
   }
@@ -597,6 +648,8 @@ async function handleDailyWordleLoss(
 ) {
   const userId = ctx.from!.id.toString();
 
+  // Clear daily guess cache — game over
+  clearDailyGuessCache(userId, dailyWord.id);
   await redis.del(`daily_wordle:${userId}`);
 
   await db

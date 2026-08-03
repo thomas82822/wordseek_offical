@@ -72,6 +72,10 @@ export async function errorHandler(error: BotError<Context>) {
         );
       }
     }
+  } else {
+    // Log unexpected (non-Telegram) errors — DB timeouts, unhandled exceptions, etc.
+    // Previously these were silently swallowed, making it impossible to debug why
+    // users got no reply.  Now they appear in Heroku logs.
+    console.error("[bot] Unhandled error in update", ctx.update?.update_id, e);
   }
-  // All other errors are silently ignored to prevent bot crashes
 }
