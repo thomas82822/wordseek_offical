@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:55:10.597Z",
+  "timestamp": "2026-08-03T09:55:27.350Z",
   "data": [
     {
       "id": "8761468045",
@@ -11112,16 +11112,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000044",
-      "name": "𝚱_xd",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.368Z",
-      "updatedAt": "2026-08-03T09:53:40.097Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "9900000039",
       "name": "🇬🇧 �",
       "username": null,
@@ -11400,6 +11390,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000044",
+      "name": "𝚱_xd",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.368Z",
+      "updatedAt": "2026-08-03T09:55:20.091Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8789240368",
