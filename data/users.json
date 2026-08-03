@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:55:27.350Z",
+  "timestamp": "2026-08-03T09:55:57.769Z",
   "data": [
     {
       "id": "8761468045",
@@ -6672,6 +6672,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000030",
+      "name": "卐ૐ॥",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:52.524Z",
+      "updatedAt": "2026-08-03T09:55:30.057Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "6628731385",
       "name": "⌯OxYno┇𝚳𝚳",
       "username": "Idontcarebc",
@@ -6680,16 +6690,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000030",
-      "name": "卐ૐ॥",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:52.524Z",
-      "updatedAt": "2026-08-03T09:46:50.057Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8676678486",
@@ -9422,16 +9422,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000042",
-      "name": "𝜯",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:55.823Z",
-      "updatedAt": "2026-08-03T09:46:40.078Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "5344374308",
       "name": "Yuviiii❤️",
       "username": "Yuvii0M",
@@ -9787,6 +9777,16 @@
       "username": null,
       "createdAt": "2026-07-16T08:39:58.362Z",
       "updatedAt": "2026-08-02T12:22:07.203Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000042",
+      "name": "𝜯",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:55.823Z",
+      "updatedAt": "2026-08-03T09:55:40.084Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10172,11 +10172,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000033",
-      "name": "𝁘꯭⃖💎⃪꯭𝐒⃪ᴏ⃪꯭ⷪᴜ⃪꯭ᷱʀ⃪꯭ᷡʏ⃪꯭ͤᴀ⃪꯭ᷢ💎⃪꯭⃗➛꯭",
+      "id": "9900000026",
+      "name": "𝐙",
       "username": null,
-      "createdAt": "2026-07-16T12:20:53.329Z",
-      "updatedAt": "2026-08-03T09:45:20.076Z",
+      "createdAt": "2026-07-16T12:20:51.414Z",
+      "updatedAt": "2026-08-03T09:55:50.056Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10250,16 +10250,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000026",
-      "name": "ㅤᯓ𝁘ໍ𝐌",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.414Z",
-      "updatedAt": "2026-08-03T09:52:20.070Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "7799446569",
@@ -10377,6 +10367,16 @@
       "username": null,
       "createdAt": "2026-07-16T12:20:58.543Z",
       "updatedAt": "2026-08-03T09:53:50.228Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000033",
+      "name": "𝁘꯭⃖💎⃪꯭𝐒⃪ᴏ⃪꯭ⷪᴜ⃪꯭ᷱʀ⃪꯭ᷡʏ⃪꯭ͤᴀ⃪꯭ᷢ💎⃪꯭⃗➛꯭",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:53.329Z",
+      "updatedAt": "2026-08-03T09:55:40.059Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10802,16 +10802,6 @@
       "dmStarted": false
     },
     {
-      "id": "8098146730",
-      "name": "Hbd hunter 💗🥂",
-      "username": "TheY_CaIl_mE_OG",
-      "createdAt": "2026-07-16T08:41:49.352Z",
-      "updatedAt": "2026-08-03T09:50:34.340Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "9900000011",
       "name": "─",
       "username": null,
@@ -10880,6 +10870,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "8098146730",
+      "name": "Hbd hunter 💗🥂",
+      "username": "TheY_CaIl_mE_OG",
+      "createdAt": "2026-07-16T08:41:49.352Z",
+      "updatedAt": "2026-08-03T09:55:34.914Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8654416400",
