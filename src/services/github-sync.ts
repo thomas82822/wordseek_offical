@@ -122,15 +122,17 @@ export async function syncToGitHub(force = false): Promise<{ ok: boolean; messag
     return { ok: false, message: "GITHUB_TOKEN not set — skipping sync." };
   }
 
-  // Debounce: minimum 5 seconds between syncs (was 60s — now near-instant)
+  // Debounce: minimum 60 seconds between syncs — prevents GitHub API hammering
+  // on busy chats where many correct guesses fire in quick succession.
+  // Increasing from 5s → 60s dramatically reduces event-loop pressure on Heroku.
   if (!force) {
     try {
       const { redis } = await import("../config/redis");
       const lastSync = await redis.get("github:last_sync");
-      if (lastSync && Date.now() - parseInt(lastSync) < 5_000) {
-        return { ok: true, message: "Skipped — synced within last 5s." };
+      if (lastSync && Date.now() - parseInt(lastSync) < 60_000) {
+        return { ok: true, message: "Skipped — synced within last 60s." };
       }
-      await redis.set("github:last_sync", Date.now().toString(), "EX", 30);
+      await redis.set("github:last_sync", Date.now().toString(), "EX", 120);
     } catch {}
   }
 

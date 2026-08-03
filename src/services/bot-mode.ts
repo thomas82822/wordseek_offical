@@ -17,6 +17,7 @@ import { bot } from "../config/bot";
 import { db } from "../config/db";
 import { env } from "../config/env";
 import { redis } from "../config/redis";
+import { memCache } from "../config/cache";
 import allSixWords from "../data/all-six.json";
 import allFiveWords from "../data/all-five.json";
 import allFourWords from "../data/all-four.json";
@@ -228,8 +229,13 @@ async function isBotAwake(botId: string): Promise<boolean> {
 }
 
 // ── Register known chats ───────────────────────────────────────────────────────
+// memCache guard: skip Redis SADD+EXPIRE if we already registered this chat
+// in the last 10 minutes.  Redis SADD is idempotent so the skip is safe.
 export async function registerBotChat(chatId: string): Promise<void> {
   if (!chatId || chatId === "admin") return;
+  const memKey = `kc:${chatId}`;
+  if (memCache.get<boolean>(memKey)) return;
+  memCache.set(memKey, true, 10 * 60_000); // 10 min
   await redis.sadd(BOT_KNOWN_CHATS, chatId);
   await redis.expire(BOT_KNOWN_CHATS, 30 * 24 * 60 * 60);
 }

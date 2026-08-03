@@ -188,12 +188,6 @@ composer.on("message:text", async (ctx) => {
   // Topic is implicitly allowed — a game is running here.
   // requireAllowedTopic is enforced on /new command, not on guesses.
 
-  const isVerified = await isDmVerified(userId);
-  if (!isVerified) {
-    maybeNudgeUserToDm(ctx, userId).catch(() => {});
-    // nudge only — do not block guess
-  }
-
   const wordLength = currentGame.word.length as WordLength;
 
   if (currentGuess.length !== wordLength) return;
@@ -376,66 +370,7 @@ composer.on("message:text", async (ctx) => {
   });
 });
 
-/**
- * Whether a user has verified by starting the bot in DM.
- * Cached in Redis to avoid a DB hit on every single group guess.
- */
-async function isDmVerified(userId: string): Promise<boolean> {
-  const cacheKey = `dm_verified:${userId}`;
-  try {
-    const cached = await redis.get(cacheKey);
-    if (cached !== null) return cached === "1";
-  } catch {}
-
-  try {
-    const user = await db
-      .selectFrom("users")
-      .select(["dmStarted"])
-      .where("id", "=", userId)
-      .executeTakeFirst();
-    const verified = !user || !!user.dmStarted;
-    await redis
-      .set(cacheKey, verified ? "1" : "0", "EX", verified ? 1800 : 60)
-      .catch(() => {});
-    return verified;
-  } catch {
-    return true;
-  }
-}
-
-async function maybeNudgeUserToDm(ctx: Context, userId: string): Promise<void> {
-  try {
-    const nudgeKey = `dm_nudge_sent:${userId}`;
-    const alreadyNudgedRecently = await redis.get(nudgeKey);
-    if (alreadyNudgedRecently) return;
-
-    const botUsername = ctx.me.username;
-    const mention = ctx.from?.username
-      ? `@${ctx.from.username}`
-      : `<a href="tg://user?id=${userId}">${escHtml(ctx.from?.first_name ?? "Hey")}</a>`;
-
-    await ctx.reply(
-      `${pe("👋")} ${mention} — I can't read your guesses yet!\n\n` +
-        `${pe("🔒")} Please start me in DM first to verify your account, then come back and play.\n` +
-        `Click the button below to get started! ${randomPremiumEmoji()}`,
-      {
-        parse_mode: "HTML",
-        reply_markup: {
-          inline_keyboard: [
-            [
-              {
-                text: "▶️ Start Bot & Verify",
-                url: `https://t.me/${botUsername}?start=gc`,
-              },
-            ],
-          ],
-        },
-      },
-    );
-
-    await redis.set(nudgeKey, "1", "EX", 60 * 15);
-  } catch {}
-}
+// DM verification removed — all users can play directly without starting the bot in DM first.
 
 // Fix 3: Notify user about pending drop once they cross 1k (was 50k)
 async function checkFiftyKMilestone(userId: string): Promise<void> {
