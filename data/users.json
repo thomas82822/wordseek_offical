@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T09:53:49.691Z",
+  "timestamp": "2026-08-03T09:53:57.341Z",
   "data": [
     {
       "id": "8761468045",
@@ -7042,16 +7042,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000016",
-      "name": "trishu🕊️",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:44.840Z",
-      "updatedAt": "2026-08-03T09:44:40.034Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7979914854",
       "name": "一⋆𝐂𝐡̴𝛂֟֯፝͜͡𝐡𝛂𝛕💖",
       "username": null,
@@ -7250,6 +7240,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000016",
+      "name": "trishu🕊️",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.840Z",
+      "updatedAt": "2026-08-03T09:53:50.148Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8131424247",
@@ -10376,7 +10376,7 @@
       "name": "Hema07",
       "username": null,
       "createdAt": "2026-07-16T12:20:58.543Z",
-      "updatedAt": "2026-08-03T09:43:50.117Z",
+      "updatedAt": "2026-08-03T09:53:50.228Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10952,16 +10952,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000052",
-      "name": "Komal. ,.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.732Z",
-      "updatedAt": "2026-08-03T09:51:10.121Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8113609819",
       "name": "⎯⁠⁠⁠⁠⎯꯭᪵🦋𓈒𝜜ꪖꪜꪀι꯭ 𝆺꯭𝅥⎯꯭",
       "username": null,
@@ -11280,6 +11270,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000052",
+      "name": "Komal. ,.",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.732Z",
+      "updatedAt": "2026-08-03T09:53:50.216Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "9900000032",
