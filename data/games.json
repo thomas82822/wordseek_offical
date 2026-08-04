@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T07:17:00.600Z",
+  "timestamp": "2026-08-04T07:22:13.315Z",
   "data": [
     {
       "id": 3637,
@@ -137,15 +137,6 @@
       "topicId": "general"
     },
     {
-      "id": 5455,
-      "word": "play",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-04T07:17:00.595Z",
-      "updatedAt": "2026-08-04T07:17:00.595Z",
-      "startedBy": "8312565346",
-      "topicId": "general"
-    },
-    {
       "id": 2588,
       "word": "fairy",
       "activeChat": "-1003834099867",
@@ -161,6 +152,15 @@
       "createdAt": "2026-07-24T18:31:57.896Z",
       "updatedAt": "2026-07-24T18:31:57.896Z",
       "startedBy": "8702740059",
+      "topicId": "general"
+    },
+    {
+      "id": 5467,
+      "word": "hour",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-04T07:22:13.310Z",
+      "updatedAt": "2026-08-04T07:22:13.310Z",
+      "startedBy": "8312565346",
       "topicId": "general"
     },
     {
