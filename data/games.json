@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T14:30:00.003Z",
+  "timestamp": "2026-08-04T14:57:09.673Z",
   "data": [
     {
       "id": 3637,
@@ -151,15 +151,6 @@
       "activeChat": "-1003798935201",
       "createdAt": "2026-08-04T14:28:42.369Z",
       "updatedAt": "2026-08-04T14:28:42.369Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 5701,
-      "word": "knot",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-04T13:19:32.594Z",
-      "updatedAt": "2026-08-04T13:19:32.594Z",
       "startedBy": "8098146730",
       "topicId": "general"
     },
