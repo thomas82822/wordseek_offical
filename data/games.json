@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-04T03:08:54.394Z",
+  "timestamp": "2026-08-04T03:47:55.878Z",
   "data": [
-    {
-      "id": 5426,
-      "word": "clog",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-04T03:08:54.389Z",
-      "updatedAt": "2026-08-04T03:08:54.389Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
@@ -52,6 +43,24 @@
       "activeChat": "-1004408168512",
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
+      "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 5431,
+      "word": "mule",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-04T03:12:46.285Z",
+      "updatedAt": "2026-08-04T03:12:46.285Z",
+      "startedBy": "7594120920",
+      "topicId": "general"
+    },
+    {
+      "id": 5432,
+      "word": "fume",
+      "activeChat": "-1002259084367",
+      "createdAt": "2026-08-04T03:47:55.874Z",
+      "updatedAt": "2026-08-04T03:47:55.874Z",
       "startedBy": "8098146730",
       "topicId": "general"
     },
