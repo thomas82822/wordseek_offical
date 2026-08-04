@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T10:54:42.363Z",
+  "timestamp": "2026-08-04T11:03:49.549Z",
   "data": [
     {
       "id": 3637,
@@ -65,21 +65,21 @@
       "topicId": "general"
     },
     {
-      "id": 5673,
-      "word": "glum",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-04T10:54:42.357Z",
-      "updatedAt": "2026-08-04T10:54:42.357Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
       "id": 297,
       "word": "beck",
       "activeChat": "6205739400",
       "createdAt": "2026-07-19T02:12:33.111Z",
       "updatedAt": "2026-07-19T02:12:33.111Z",
       "startedBy": "6205739400",
+      "topicId": "general"
+    },
+    {
+      "id": 5674,
+      "word": "both",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-04T11:03:49.544Z",
+      "updatedAt": "2026-08-04T11:03:49.544Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
