@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-04T07:51:00.706Z",
+  "timestamp": "2026-08-04T08:09:32.041Z",
   "data": [
-    {
-      "id": 5481,
-      "word": "gains",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-04T07:51:00.699Z",
-      "updatedAt": "2026-08-04T07:51:00.699Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
@@ -56,6 +47,24 @@
       "topicId": "general"
     },
     {
+      "id": 5485,
+      "word": "sake",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-04T07:54:23.995Z",
+      "updatedAt": "2026-08-04T07:54:23.995Z",
+      "startedBy": "7594120920",
+      "topicId": "general"
+    },
+    {
+      "id": 5487,
+      "word": "return",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-04T08:09:32.027Z",
+      "updatedAt": "2026-08-04T08:09:32.027Z",
+      "startedBy": "8982762980",
+      "topicId": "general"
+    },
+    {
       "id": 291,
       "word": "tepid",
       "activeChat": "8668222760",
@@ -89,15 +98,6 @@
       "createdAt": "2026-07-19T02:27:08.624Z",
       "updatedAt": "2026-07-19T02:27:08.624Z",
       "startedBy": "8946524603",
-      "topicId": "general"
-    },
-    {
-      "id": 5441,
-      "word": "laser",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-04T07:06:41.425Z",
-      "updatedAt": "2026-08-04T07:06:41.425Z",
-      "startedBy": "8425634893",
       "topicId": "general"
     },
     {
@@ -161,15 +161,6 @@
       "createdAt": "2026-07-24T18:31:57.896Z",
       "updatedAt": "2026-07-24T18:31:57.896Z",
       "startedBy": "8702740059",
-      "topicId": "general"
-    },
-    {
-      "id": 5479,
-      "word": "data",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-04T07:32:06.749Z",
-      "updatedAt": "2026-08-04T07:32:06.749Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
