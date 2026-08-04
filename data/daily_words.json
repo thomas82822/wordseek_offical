@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T23:30:00.003Z",
+  "timestamp": "2026-08-04T02:16:24.393Z",
   "data": [
     {
       "id": 1,
@@ -187,6 +187,17 @@
       "sentence": null,
       "createdAt": "2026-08-02T00:30:00.589Z",
       "updatedAt": "2026-08-02T00:30:00.589Z"
+    },
+    {
+      "id": 562,
+      "dayNumber": 562,
+      "word": "odium",
+      "date": "2026-08-04T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-08-04T00:30:00.100Z",
+      "updatedAt": "2026-08-04T00:30:00.100Z"
     }
   ]
 }
