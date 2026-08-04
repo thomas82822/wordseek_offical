@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T11:03:49.549Z",
+  "timestamp": "2026-08-04T11:11:50.327Z",
   "data": [
     {
       "id": 3637,
@@ -74,15 +74,6 @@
       "topicId": "general"
     },
     {
-      "id": 5674,
-      "word": "both",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-04T11:03:49.544Z",
-      "updatedAt": "2026-08-04T11:03:49.544Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
-    {
       "id": 3948,
       "word": "tram",
       "activeChat": "-1003953024396",
@@ -98,6 +89,24 @@
       "createdAt": "2026-07-19T02:27:08.624Z",
       "updatedAt": "2026-07-19T02:27:08.624Z",
       "startedBy": "8946524603",
+      "topicId": "general"
+    },
+    {
+      "id": 5676,
+      "word": "meta",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-04T11:08:28.102Z",
+      "updatedAt": "2026-08-04T11:08:28.102Z",
+      "startedBy": "7594120920",
+      "topicId": "general"
+    },
+    {
+      "id": 5677,
+      "word": "bind",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-04T11:11:50.321Z",
+      "updatedAt": "2026-08-04T11:11:50.321Z",
+      "startedBy": "8311195623",
       "topicId": "general"
     },
     {
