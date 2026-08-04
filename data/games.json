@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T08:09:32.041Z",
+  "timestamp": "2026-08-04T08:23:18.865Z",
   "data": [
     {
       "id": 3637,
@@ -44,24 +44,6 @@
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
       "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 5485,
-      "word": "sake",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-04T07:54:23.995Z",
-      "updatedAt": "2026-08-04T07:54:23.995Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
-    {
-      "id": 5487,
-      "word": "return",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-04T08:09:32.027Z",
-      "updatedAt": "2026-08-04T08:09:32.027Z",
-      "startedBy": "8982762980",
       "topicId": "general"
     },
     {
