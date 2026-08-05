@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T11:11:20.262Z",
+  "timestamp": "2026-08-05T12:08:54.949Z",
   "data": [
     {
       "id": 3637,
@@ -110,15 +110,6 @@
       "topicId": "general"
     },
     {
-      "id": 5876,
-      "word": "pickup",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-05T11:11:20.246Z",
-      "updatedAt": "2026-08-05T11:11:20.246Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
       "id": 1568,
       "word": "steak",
       "activeChat": "5822644571",
@@ -143,6 +134,15 @@
       "createdAt": "2026-07-21T01:26:49.555Z",
       "updatedAt": "2026-07-21T01:26:49.555Z",
       "startedBy": "8909820239",
+      "topicId": "general"
+    },
+    {
+      "id": 5889,
+      "word": "loop",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-05T12:08:54.945Z",
+      "updatedAt": "2026-08-05T12:08:54.945Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
