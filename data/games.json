@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T08:27:12.951Z",
+  "timestamp": "2026-08-05T09:03:59.093Z",
   "data": [
     {
       "id": 5804,
@@ -92,12 +92,12 @@
       "topicId": "general"
     },
     {
-      "id": 5819,
-      "word": "crisis",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-05T08:27:12.935Z",
-      "updatedAt": "2026-08-05T08:27:12.935Z",
-      "startedBy": "8934343130",
+      "id": 5820,
+      "word": "seal",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-05T09:03:59.088Z",
+      "updatedAt": "2026-08-05T09:03:59.088Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
