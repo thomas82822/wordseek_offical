@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T09:03:59.093Z",
+  "timestamp": "2026-08-05T09:09:48.749Z",
   "data": [
     {
       "id": 5804,
@@ -89,15 +89,6 @@
       "createdAt": "2026-07-19T02:27:08.624Z",
       "updatedAt": "2026-07-19T02:27:08.624Z",
       "startedBy": "8946524603",
-      "topicId": "general"
-    },
-    {
-      "id": 5820,
-      "word": "seal",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-05T09:03:59.088Z",
-      "updatedAt": "2026-08-05T09:03:59.088Z",
-      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
