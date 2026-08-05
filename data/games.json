@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-05T09:45:23.671Z",
+  "timestamp": "2026-08-05T09:52:37.689Z",
   "data": [
-    {
-      "id": 5804,
-      "word": "cable",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-05T04:28:16.459Z",
-      "updatedAt": "2026-08-05T04:28:16.459Z",
-      "startedBy": "8098146730",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
