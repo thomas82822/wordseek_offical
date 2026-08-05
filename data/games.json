@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T04:50:00.059Z",
+  "timestamp": "2026-08-05T05:26:37.003Z",
   "data": [
     {
       "id": 5804,
@@ -44,15 +44,6 @@
       "createdAt": "2026-08-02T07:47:31.077Z",
       "updatedAt": "2026-08-02T07:47:31.077Z",
       "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 5805,
-      "word": "racism",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-05T04:50:00.031Z",
-      "updatedAt": "2026-08-05T04:50:00.031Z",
-      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
@@ -125,15 +116,6 @@
       "createdAt": "2026-07-22T00:12:08.916Z",
       "updatedAt": "2026-07-22T00:12:08.916Z",
       "startedBy": "5822644571",
-      "topicId": "general"
-    },
-    {
-      "id": 5748,
-      "word": "nutty",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-04T14:21:54.171Z",
-      "updatedAt": "2026-08-04T14:21:54.171Z",
-      "startedBy": "8982762980",
       "topicId": "general"
     },
     {
