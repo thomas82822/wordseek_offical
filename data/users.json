@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T04:30:00.005Z",
+  "timestamp": "2026-08-06T04:56:16.767Z",
   "data": [
     {
       "id": "8761468045",
@@ -67,6 +67,16 @@
       "username": "IohbXMWEqR9",
       "createdAt": "2026-07-16T16:52:41.012Z",
       "updatedAt": "2026-07-20T18:25:03.265Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
+      "id": "8534164241",
+      "name": "𓂃⃪⃨𝆭︠ꪳ Tᗩᑎ𝗬ᗩ🦋𝅯͢ ࡞𝆬𝆟𝅮⃨𓂃",
+      "username": "Mine8858",
+      "createdAt": "2026-08-06T04:30:50.459Z",
+      "updatedAt": "2026-08-06T04:55:39.796Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -762,6 +772,16 @@
       "dmStarted": false
     },
     {
+      "id": "8678489787",
+      "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ￶ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+      "username": null,
+      "createdAt": "2026-08-06T04:34:37.896Z",
+      "updatedAt": "2026-08-06T04:34:37.896Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
       "id": "8549456167",
       "name": "- 𝐕 𝛊 Ꭰ ῳ 𝛂 𝐍 #🚩",
       "username": "wfftz",
@@ -1222,16 +1242,6 @@
       "dmStarted": false
     },
     {
-      "id": "8223853405",
-      "name": "Bʀᴏᴄᴋ Ꮢᴀᴊᴘᴜᴛ",
-      "username": "zsive",
-      "createdAt": "2026-07-25T09:12:25.440Z",
-      "updatedAt": "2026-08-01T04:45:16.023Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "8935532162",
       "name": "𝗥𝗶𝘆𝗮 𝗥𝗮𝗷",
       "username": null,
@@ -1457,6 +1467,16 @@
       "username": null,
       "createdAt": "2026-07-21T08:26:35.049Z",
       "updatedAt": "2026-07-21T08:27:09.796Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
+      "id": "8355738329",
+      "name": "≛⃝°᭄°𝗚𝗨𝗥𝗨°᭄࿐🕊",
+      "username": null,
+      "createdAt": "2026-08-06T04:34:55.741Z",
+      "updatedAt": "2026-08-06T04:34:55.741Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -2732,6 +2752,16 @@
       "dmStarted": false
     },
     {
+      "id": "8223853405",
+      "name": "Brock rajput",
+      "username": "zsive",
+      "createdAt": "2026-07-25T09:12:25.440Z",
+      "updatedAt": "2026-08-06T04:53:51.230Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
       "id": "8375260604",
       "name": "👀",
       "username": null,
@@ -3806,7 +3836,7 @@
       "name": "𝐙",
       "username": null,
       "createdAt": "2026-07-16T12:20:51.330Z",
-      "updatedAt": "2026-08-06T04:26:40.039Z",
+      "updatedAt": "2026-08-06T04:46:30.043Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -4842,11 +4872,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000049",
-      "name": "~𝄟≛⃝07",
+      "id": "9900000002",
+      "name": "Govind J.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:57.210Z",
-      "updatedAt": "2026-08-06T04:22:30.114Z",
+      "createdAt": "2026-07-16T11:35:15.225Z",
+      "updatedAt": "2026-08-06T04:50:50.008Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -5052,6 +5082,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000031",
+      "name": "Maya",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:52.788Z",
+      "updatedAt": "2026-08-06T04:46:10.082Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8873515963",
       "name": "- 𝑹 𝒂 𝒚 𝒚 𝒂 𝒏 !!",
       "username": "sexyrayyan",
@@ -5210,16 +5250,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000002",
-      "name": "Govind J.",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.225Z",
-      "updatedAt": "2026-08-06T04:27:00.009Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8729845131",
@@ -5412,6 +5442,16 @@
       "dmStarted": true
     },
     {
+      "id": "9900000049",
+      "name": "~𝄟≛⃝07",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.210Z",
+      "updatedAt": "2026-08-06T04:52:00.163Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "1186032234",
       "name": "...",
       "username": "Vishu9078",
@@ -5420,16 +5460,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000031",
-      "name": "Maya",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:52.788Z",
-      "updatedAt": "2026-08-06T04:24:10.069Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8320895056",
@@ -6092,6 +6122,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000027",
+      "name": "TNR",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.812Z",
+      "updatedAt": "2026-08-06T04:55:30.072Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8640187296",
       "name": "🔍ᯏ𝆭 𝐃 𝐄 𝐌 𝐎 𝐍𝂈̽🜲 ̋˖🔍",
       "username": null,
@@ -6140,16 +6180,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000027",
-      "name": "TNR",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.812Z",
-      "updatedAt": "2026-08-06T04:28:50.038Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "6678403538",
@@ -6842,11 +6872,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000022",
-      "name": "𝑲𝒖𝒄𝒉𝒖 �.",
+      "id": "9900000030",
+      "name": "Itz",
       "username": null,
-      "createdAt": "2026-07-16T12:20:50.894Z",
-      "updatedAt": "2026-08-06T04:28:40.039Z",
+      "createdAt": "2026-07-16T12:20:52.524Z",
+      "updatedAt": "2026-08-06T04:50:30.066Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -6867,6 +6897,16 @@
       "username": "SiLeNt_LoYaLtY",
       "createdAt": "2026-07-18T08:28:59.968Z",
       "updatedAt": "2026-07-29T08:55:43.473Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000023",
+      "name": "⚜️爪口尺れ工⚜",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:51.068Z",
+      "updatedAt": "2026-08-06T04:50:40.031Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -6900,16 +6940,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000023",
-      "name": "⚜️爪口尺れ工⚜",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.068Z",
-      "updatedAt": "2026-08-06T04:21:10.050Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8580374030",
@@ -6992,6 +7022,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000013",
+      "name": "—͟͞͞⛥༒ʙᴀɢᴀ",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.181Z",
+      "updatedAt": "2026-08-06T04:45:10.018Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "2039882805",
       "name": "Shreyash Tayade",
       "username": "Shreyashslayer",
@@ -7022,11 +7062,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000007",
-      "name": "‹𝟹 ㅤ",
+      "id": "9900000020",
+      "name": "𓍯Неониллаᖭི༏ᖫྀ💕",
       "username": null,
-      "createdAt": "2026-07-16T12:20:36.032Z",
-      "updatedAt": "2026-08-06T04:23:20.015Z",
+      "createdAt": "2026-07-16T12:20:50.622Z",
+      "updatedAt": "2026-08-06T04:48:20.028Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -7062,21 +7102,21 @@
       "dmStarted": true
     },
     {
-      "id": "9900000013",
-      "name": "—͟͞͞⛥༒ʙᴀɢᴀ",
+      "id": "9900000022",
+      "name": "𝑲𝒖𝒄𝒉𝒖 �.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:44.181Z",
-      "updatedAt": "2026-08-06T04:22:50.034Z",
+      "createdAt": "2026-07-16T12:20:50.894Z",
+      "updatedAt": "2026-08-06T04:50:00.031Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000020",
-      "name": "𓍯Неониллаᖭི༏ᖫྀ💕",
+      "id": "9900000007",
+      "name": "‹𝟹 ㅤ",
       "username": null,
-      "createdAt": "2026-07-16T12:20:50.622Z",
-      "updatedAt": "2026-08-06T04:26:00.036Z",
+      "createdAt": "2026-07-16T12:20:36.032Z",
+      "updatedAt": "2026-08-06T04:50:10.012Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -7270,16 +7310,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000030",
-      "name": "Itz",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:52.524Z",
-      "updatedAt": "2026-08-06T04:23:10.043Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "8950235318",
@@ -7546,7 +7576,7 @@
       "name": "_ϻΔѕтє☈ִֶָ𓂃 Jr",
       "username": null,
       "createdAt": "2026-07-16T12:20:51.154Z",
-      "updatedAt": "2026-08-06T04:23:20.049Z",
+      "updatedAt": "2026-08-06T04:55:00.061Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -7606,7 +7636,7 @@
       "name": "trishu🕊️99",
       "username": null,
       "createdAt": "2026-07-16T12:20:44.517Z",
-      "updatedAt": "2026-08-06T04:26:30.241Z",
+      "updatedAt": "2026-08-06T04:46:50.024Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -7956,7 +7986,7 @@
       "name": "🌸",
       "username": null,
       "createdAt": "2026-07-16T11:35:15.690Z",
-      "updatedAt": "2026-08-06T04:25:50.009Z",
+      "updatedAt": "2026-08-06T04:55:00.014Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -8182,14 +8212,14 @@
       "dmStarted": false
     },
     {
-      "id": "8018205117",
-      "name": "☢️ sign",
+      "id": "9900000018",
+      "name": "~Ｊモれれ工モ ~.",
       "username": null,
-      "createdAt": "2026-07-24T16:21:35.274Z",
-      "updatedAt": "2026-08-05T08:53:14.705Z",
+      "createdAt": "2026-07-16T12:20:50.315Z",
+      "updatedAt": "2026-08-06T04:55:30.053Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": false
+      "dmStarted": true
     },
     {
       "id": "5215470396",
@@ -8222,11 +8252,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000018",
-      "name": "~Ｊモれれ工モ ~.",
+      "id": "9900000005",
+      "name": "➺ ‌.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:50.315Z",
-      "updatedAt": "2026-08-06T04:28:30.060Z",
+      "createdAt": "2026-07-16T11:35:15.765Z",
+      "updatedAt": "2026-08-06T04:47:40.011Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -8252,6 +8282,16 @@
       "dmStarted": false
     },
     {
+      "id": "8526341968",
+      "name": "ㅤ𓆩4ˢᵗ𓆪 NOOB",
+      "username": "Fuck_u_b4ta",
+      "createdAt": "2026-07-19T11:41:01.659Z",
+      "updatedAt": "2026-08-06T04:47:49.343Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
       "id": "8975659546",
       "name": "𓆩🦋𓆪ℓყℓα 𝅯ꪳꪲ𓂃ᤢ♡〭",
       "username": "Where_u_r01",
@@ -8270,16 +8310,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000005",
-      "name": "➺ ‌.",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.765Z",
-      "updatedAt": "2026-08-06T04:25:00.015Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "5596409130",
@@ -8357,6 +8387,16 @@
       "username": null,
       "createdAt": "2026-07-24T00:12:20.220Z",
       "updatedAt": "2026-07-25T01:35:28.156Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
+      "id": "8018205117",
+      "name": "☢️ sign",
+      "username": null,
+      "createdAt": "2026-07-24T16:21:35.274Z",
+      "updatedAt": "2026-08-06T04:55:11.649Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -8522,16 +8562,6 @@
       "dmStarted": false
     },
     {
-      "id": "8526341968",
-      "name": "ㅤ𓆩4ˢᵗ𓆪 NOOB",
-      "username": "Fuck_u_b4ta",
-      "createdAt": "2026-07-19T11:41:01.659Z",
-      "updatedAt": "2026-08-05T04:35:44.757Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "1353040074",
       "name": "𝐊𝐑𝐈𝐓𝐈𝐊𝐀",
       "username": "Kritikababy",
@@ -8592,14 +8622,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000003",
-      "name": "Massagger_xd",
+      "id": "8929485287",
+      "name": ".𝁘ฺ𝀘ໍ 𝐓𝐇𝚵 ⌯ 𝐋𝚯𝐑𝐃 𝁑🍁.",
       "username": null,
-      "createdAt": "2026-07-16T11:35:15.285Z",
-      "updatedAt": "2026-08-06T04:29:50.023Z",
+      "createdAt": "2026-08-01T16:03:32.312Z",
+      "updatedAt": "2026-08-06T04:37:50.925Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "8312565346",
@@ -8660,6 +8690,26 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "8469287983",
+      "name": "🍷XƎ˥∀",
+      "username": null,
+      "createdAt": "2026-07-16T13:02:12.765Z",
+      "updatedAt": "2026-08-06T04:46:00.382Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
+      "id": "9900000003",
+      "name": "Massagger_xd",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.285Z",
+      "updatedAt": "2026-08-06T04:55:20.010Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8478320517",
@@ -8742,14 +8792,14 @@
       "dmStarted": false
     },
     {
-      "id": "8469287983",
-      "name": "🍷XƎ˥∀",
+      "id": "9900000010",
+      "name": "꧁༒☬฿۝$$☬༒꧂💯🌹❤️‍🔥",
       "username": null,
-      "createdAt": "2026-07-16T13:02:12.765Z",
-      "updatedAt": "2026-08-06T04:22:15.582Z",
+      "createdAt": "2026-07-16T12:20:37.045Z",
+      "updatedAt": "2026-08-06T04:51:10.015Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": false
+      "dmStarted": true
     },
     {
       "id": "6276813445",
@@ -8872,16 +8922,6 @@
       "dmStarted": true
     },
     {
-      "id": "8929485287",
-      "name": ".𝁘ฺ𝀘ໍ 𝐓𝐇𝚵 ⌯ 𝐋𝚯𝐑𝐃 𝁑🍁.",
-      "username": null,
-      "createdAt": "2026-08-01T16:03:32.312Z",
-      "updatedAt": "2026-08-06T04:18:45.827Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "6488495989",
       "name": "#𝐌ᴀɴᴊᴇᴇᴛ.!! (Inactive till 26 aug )",
       "username": "Uzbc3",
@@ -8980,16 +9020,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "9900000010",
-      "name": "꧁༒☬฿۝$$☬༒꧂💯🌹❤️‍🔥",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:37.045Z",
-      "updatedAt": "2026-08-06T04:21:00.041Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "7781861555",
@@ -9226,7 +9256,7 @@
       "name": "𝙿𝗋𝐀𝙱ɦ𝚄99",
       "username": null,
       "createdAt": "2026-07-16T12:20:55.264Z",
-      "updatedAt": "2026-08-06T04:28:40.074Z",
+      "updatedAt": "2026-08-06T04:52:40.051Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9272,11 +9302,11 @@
       "dmStarted": false
     },
     {
-      "id": "5925396013",
-      "name": "\" Ɗareͥ∂eͣvͫΐl \"",
-      "username": null,
-      "createdAt": "2026-08-01T00:17:54.139Z",
-      "updatedAt": "2026-08-06T04:29:42.029Z",
+      "id": "8586964663",
+      "name": "─ 𝛅 ᧘ །ᨙ 𑜼꧊̵ ༏ -𑰮",
+      "username": "Hyysweetu",
+      "createdAt": "2026-07-27T07:05:35.329Z",
+      "updatedAt": "2026-08-06T04:53:06.287Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -9367,6 +9397,16 @@
       "username": null,
       "createdAt": "2026-07-18T10:50:51.081Z",
       "updatedAt": "2026-07-30T13:55:51.142Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": false
+    },
+    {
+      "id": "8515803837",
+      "name": "⎯᪵⎯꯭‌‌🪷‌‌‌꯭ ‌𝗦‌꯭𝘄‌‌𝗲‌⁠⁠⁠‌𝗲𝘁‌‌𝘆‌꯭ ‌🪷‌‌‌‌‌‌˶‌‌⟶‌⋆",
+      "username": "Miss_sweetheart02",
+      "createdAt": "2026-07-29T13:21:38.289Z",
+      "updatedAt": "2026-08-06T04:49:29.721Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -9596,17 +9636,17 @@
       "name": "𓂀",
       "username": null,
       "createdAt": "2026-07-16T12:20:54.166Z",
-      "updatedAt": "2026-08-06T04:23:00.075Z",
+      "updatedAt": "2026-08-06T04:50:40.054Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "8586964663",
-      "name": "─ 𝛅 ᧘ །ᨙ 𑜼꧊̵ ༏ -𑰮",
-      "username": "Hyysweetu",
-      "createdAt": "2026-07-27T07:05:35.329Z",
-      "updatedAt": "2026-08-06T02:18:48.626Z",
+      "id": "5925396013",
+      "name": "\" Ɗareͥ∂eͣvͫΐl \"",
+      "username": null,
+      "createdAt": "2026-08-01T00:17:54.139Z",
+      "updatedAt": "2026-08-06T04:54:06.795Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -9627,16 +9667,6 @@
       "username": "Shamushamna",
       "createdAt": "2026-07-27T17:28:24.111Z",
       "updatedAt": "2026-07-28T05:37:55.069Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
-      "id": "8515803837",
-      "name": "⎯᪵⎯꯭‌‌🪷‌‌‌꯭ ‌𝗦‌꯭𝘄‌‌𝗲‌⁠⁠⁠‌𝗲𝘁‌‌𝘆‌꯭ ‌🪷‌‌‌‌‌‌˶‌‌⟶‌⋆",
-      "username": "Redflag_OG",
-      "createdAt": "2026-07-29T13:21:38.289Z",
-      "updatedAt": "2026-08-05T16:52:14.352Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -9826,7 +9856,7 @@
       "name": "𝔄𝔩𝔢𝔵 Jr",
       "username": null,
       "createdAt": "2026-07-16T12:20:51.414Z",
-      "updatedAt": "2026-08-06T04:27:40.036Z",
+      "updatedAt": "2026-08-06T04:53:50.435Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9862,21 +9892,21 @@
       "dmStarted": false
     },
     {
-      "id": "9900000060",
-      "name": "𓄂𝆺𝅥⃝᭄ᷞ",
+      "id": "9900000034",
+      "name": "S.B",
       "username": null,
-      "createdAt": "2026-07-16T12:20:59.970Z",
-      "updatedAt": "2026-08-06T04:25:10.088Z",
+      "createdAt": "2026-07-16T12:20:53.601Z",
+      "updatedAt": "2026-08-06T04:53:30.055Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000034",
-      "name": "S.B",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:53.601Z",
-      "updatedAt": "2026-08-06T04:27:00.122Z",
+      "id": "6287877754",
+      "name": "Shankar Bhai👿",
+      "username": "ChaT_MajduR",
+      "createdAt": "2026-07-18T08:29:00.611Z",
+      "updatedAt": "2026-08-06T04:35:55.212Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9952,16 +9982,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000059",
-      "name": "Gradiee..",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:59.683Z",
-      "updatedAt": "2026-08-06T04:29:10.074Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "7799446569",
       "name": "𝐒ʜꫝ𝐃~🐳✨",
       "username": "shadhuyrr",
@@ -9972,11 +9992,11 @@
       "dmStarted": false
     },
     {
-      "id": "6287877754",
-      "name": "Shankar Bhai👿",
-      "username": "ChaT_MajduR",
-      "createdAt": "2026-07-18T08:29:00.611Z",
-      "updatedAt": "2026-08-05T18:40:50.575Z",
+      "id": "9900000059",
+      "name": "Gradiee..",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:59.683Z",
+      "updatedAt": "2026-08-06T04:55:00.145Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -9992,21 +10012,21 @@
       "dmStarted": false
     },
     {
-      "id": "9900000038",
-      "name": "𓄂𐎓⃝🥀꯭⏤‌‌‌‌꯭𝐈𝐍𝐍𝐎𝐂𝐄𝐍�",
+      "id": "7495267301",
+      "name": "⁠ 𓂃⃪⃨𝆭︠ꪳ ᐯᗩᑎ𝗬ᗩ🦋𝅯͢ ࡞𝆬𝆟𝅮⃨𓂃",
       "username": null,
-      "createdAt": "2026-07-16T12:20:54.718Z",
-      "updatedAt": "2026-08-06T04:25:20.083Z",
+      "createdAt": "2026-07-29T06:49:03.690Z",
+      "updatedAt": "2026-08-06T04:51:13.785Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
-      "id": "9900000009",
-      "name": "❛._.",
+      "id": "9900000037",
+      "name": "𝙋𝙞𝙔𝙪𝙎𝙝",
       "username": null,
-      "createdAt": "2026-07-16T12:20:36.740Z",
-      "updatedAt": "2026-08-06T04:29:50.036Z",
+      "createdAt": "2026-07-16T12:20:54.429Z",
+      "updatedAt": "2026-08-06T04:55:40.058Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10040,6 +10060,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000060",
+      "name": "𓄂𝆺𝅥⃝᭄ᷞ",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:59.970Z",
+      "updatedAt": "2026-08-06T04:53:20.082Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "7822012227",
@@ -10080,6 +10110,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000055",
+      "name": "Seno",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:58.543Z",
+      "updatedAt": "2026-08-06T04:47:00.070Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8341433145",
@@ -10160,6 +10200,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000038",
+      "name": "𓄂𐎓⃝🥀꯭⏤‌‌‌‌꯭𝐈𝐍𝐍𝐎𝐂𝐄𝐍�",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:54.718Z",
+      "updatedAt": "2026-08-06T04:50:30.092Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "7391431339",
@@ -10272,11 +10322,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000055",
-      "name": "Seno",
+      "id": "9900000009",
+      "name": "❛._.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:58.543Z",
-      "updatedAt": "2026-08-06T04:27:00.168Z",
+      "createdAt": "2026-07-16T12:20:36.740Z",
+      "updatedAt": "2026-08-06T04:56:00.016Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10402,26 +10452,6 @@
       "dmStarted": true
     },
     {
-      "id": "9900000037",
-      "name": "𝙋𝙞𝙔𝙪𝙎𝙝",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:54.429Z",
-      "updatedAt": "2026-08-06T04:26:20.054Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "7495267301",
-      "name": "⁠ 𓂃⃪⃨𝆭︠ꪳ ᐯᗩᑎ𝗬ᗩ🦋𝅯͢ ࡞𝆬𝆟𝅮⃨𓂃",
-      "username": null,
-      "createdAt": "2026-07-29T06:49:03.690Z",
-      "updatedAt": "2026-08-05T15:09:45.376Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "8207606515",
       "name": "Anisha",
       "username": "Anisa0963",
@@ -10442,6 +10472,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000035",
+      "name": "🪄°]𔘓༌🪽 ⛦",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:53.865Z",
+      "updatedAt": "2026-08-06T04:56:00.065Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "5161416416",
       "name": "𝕊𝕦𝕘𝕒𝕣𝕡𝕝𝕦𝕞_𝔾𝕚𝕣𝕝_ ฅ^•ﻌ•^ฅ",
       "username": "Pandit_0610",
@@ -10452,14 +10492,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000008",
-      "name": "✨👑💸",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:36.414Z",
-      "updatedAt": "2026-08-06T04:29:30.024Z",
+      "id": "8251091016",
+      "name": "ㅤ ⌁ ‌𝐊 𝖗 𝖎 𝖝 /‌/- ‌‌🇨🇦‌‌( OFF )",
+      "username": "SexAdictted",
+      "createdAt": "2026-07-16T11:46:55.383Z",
+      "updatedAt": "2026-08-06T04:38:34.477Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "7118943328",
@@ -10492,16 +10532,6 @@
       "dmStarted": false
     },
     {
-      "id": "8749450883",
-      "name": "￶",
-      "username": null,
-      "createdAt": "2026-07-17T07:06:43.015Z",
-      "updatedAt": "2026-08-06T04:02:40.019Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "8805177482",
       "name": "◄⏤͟͞ ꯭ᶦϻ‌꯭𝅃͜͡🇲𝐚𝐬𝐨𝐨𝐦𓄂꯭𐎓⃝꯭꯭🇶꯭𝐮͜͡𝐞̶꯭𝐞꯭̺͆𝐧͜͡༉𝆺𝅥⃝👑",
       "username": null,
@@ -10532,14 +10562,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000053",
-      "name": "Zero",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:57.998Z",
-      "updatedAt": "2026-08-06T04:29:40.075Z",
+      "id": "8425879700",
+      "name": "- 𝐀 ძ ᧉ ℓ ι ი ᧉ 🤍ㅤ 𝅯ꪳꪲ𓂃ᤢ",
+      "username": "Glxssy_rosee02",
+      "createdAt": "2026-07-16T12:08:57.064Z",
+      "updatedAt": "2026-08-06T04:46:43.934Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "7917956450",
@@ -10642,14 +10672,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000001",
-      "name": "ㅤ",
-      "username": null,
-      "createdAt": "2026-07-16T11:35:15.071Z",
-      "updatedAt": "2026-08-06T04:29:50.008Z",
+      "id": "8676190469",
+      "name": "-❛ 𝚸꧊᱂𝐈𝛈𝛓𝛄𓐄꯭",
+      "username": "Spotify_bbe",
+      "createdAt": "2026-07-25T03:44:46.757Z",
+      "updatedAt": "2026-08-06T04:53:09.631Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "8008068587",
@@ -10672,21 +10702,21 @@
       "dmStarted": false
     },
     {
-      "id": "8425879700",
-      "name": "- 𝐀 ძ ᧉ ℓ ι ი ᧉ 🤍ㅤ 𝅯ꪳꪲ𓂃ᤢ",
-      "username": "Glxssy_rosee02",
-      "createdAt": "2026-07-16T12:08:57.064Z",
-      "updatedAt": "2026-08-06T02:41:53.320Z",
+      "id": "9900000001",
+      "name": "ㅤ",
+      "username": null,
+      "createdAt": "2026-07-16T11:35:15.071Z",
+      "updatedAt": "2026-08-06T04:55:30.007Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": false
+      "dmStarted": true
     },
     {
-      "id": "9900000035",
-      "name": "🪄°]𔘓༌🪽 ⛦",
+      "id": "9900000053",
+      "name": "Zero",
       "username": null,
-      "createdAt": "2026-07-16T12:20:53.865Z",
-      "updatedAt": "2026-08-06T04:29:50.073Z",
+      "createdAt": "2026-07-16T12:20:57.998Z",
+      "updatedAt": "2026-08-06T04:56:00.113Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10702,6 +10732,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000008",
+      "name": "✨👑💸",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:36.414Z",
+      "updatedAt": "2026-08-06T04:56:10.013Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "6714177745",
       "name": "乙ᴇʀᴏxㅤᏞᴏʀᴅㅤ⸙",
       "username": "Uss_zerox",
@@ -10712,11 +10752,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000017",
-      "name": "🔱दैत्य�",
+      "id": "8749450883",
+      "name": "￶",
       "username": null,
-      "createdAt": "2026-07-16T12:20:44.891Z",
-      "updatedAt": "2026-08-06T04:25:00.096Z",
+      "createdAt": "2026-07-17T07:06:43.015Z",
+      "updatedAt": "2026-08-06T04:50:31.104Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -10760,6 +10800,16 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
+    },
+    {
+      "id": "9900000017",
+      "name": "🔱दैत्य�",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.891Z",
+      "updatedAt": "2026-08-06T04:54:10.093Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
     },
     {
       "id": "8393547155",
@@ -10817,16 +10867,6 @@
       "username": "itxnrawat",
       "createdAt": "2026-08-03T17:05:15.855Z",
       "updatedAt": "2026-08-05T17:54:17.714Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
-      "id": "8676190469",
-      "name": "-❛ 𝚸꧊᱂𝐈𝛈𝛓𝛄𓐄꯭",
-      "username": "Spotify_bbe",
-      "createdAt": "2026-07-25T03:44:46.757Z",
-      "updatedAt": "2026-08-06T04:14:42.299Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -11012,16 +11052,6 @@
       "dmStarted": false
     },
     {
-      "id": "8251091016",
-      "name": "ㅤ ⌁ ‌𝐊 𝖗 𝖎 𝖝 /‌/- ‌‌🇨🇦‌‌( OFF )",
-      "username": "SexAdictted",
-      "createdAt": "2026-07-16T11:46:55.383Z",
-      "updatedAt": "2026-08-06T04:19:02.362Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
       "id": "7758330049",
       "name": "𓆰⃟𝐃𝐈𝐁𝐘𝐀⃟🇦🇱⃟🔱⃤𓆪",
       "username": "Dibya_hear",
@@ -11032,11 +11062,21 @@
       "dmStarted": false
     },
     {
-      "id": "9900000052",
-      "name": "𓆰𝅃꯭᳚⃝😈⃪𝐓𝐂�",
+      "id": "9900000012",
+      "name": "Ania99",
       "username": null,
-      "createdAt": "2026-07-16T12:20:57.732Z",
-      "updatedAt": "2026-08-06T04:28:50.075Z",
+      "createdAt": "2026-07-16T12:20:40.016Z",
+      "updatedAt": "2026-08-06T04:52:20.019Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000051",
+      "name": "Sagar Jr",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:57.475Z",
+      "updatedAt": "2026-08-06T04:49:00.126Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11062,14 +11102,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000054",
-      "name": "➳᭄ ᵢ.",
+      "id": "8428206096",
+      "name": "Sexy Mahi",
       "username": null,
-      "createdAt": "2026-07-16T12:20:58.270Z",
-      "updatedAt": "2026-08-06T04:23:50.082Z",
+      "createdAt": "2026-08-01T15:40:09.046Z",
+      "updatedAt": "2026-08-06T04:35:15.429Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "8976838199",
@@ -11182,11 +11222,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000012",
-      "name": "Ania99",
+      "id": "9900000042",
+      "name": "𝐀𝐁𝐇�",
       "username": null,
-      "createdAt": "2026-07-16T12:20:40.016Z",
-      "updatedAt": "2026-08-06T04:20:50.019Z",
+      "createdAt": "2026-07-16T12:20:55.823Z",
+      "updatedAt": "2026-08-06T04:53:00.115Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11312,6 +11352,16 @@
       "dmStarted": false
     },
     {
+      "id": "9900000041",
+      "name": "𝚱99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:55.552Z",
+      "updatedAt": "2026-08-06T04:52:40.062Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8488473179",
       "name": "𓆰 𝅃꯭꯭꯭꯭꯭❛- ⲙ 𝛂 𝛛 ⱶ꧊ 𝛂 𝛎 //- 🇮🇳𓆪᭄ꪾ",
       "username": "CcnPy",
@@ -11342,11 +11392,21 @@
       "dmStarted": true
     },
     {
+      "id": "9900000039",
+      "name": "𝛆᪵🤍 ❍",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:54.985Z",
+      "updatedAt": "2026-08-06T04:54:40.105Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "9900000032",
       "name": "Ѕєєηαм",
       "username": null,
       "createdAt": "2026-07-16T12:20:53.060Z",
-      "updatedAt": "2026-08-06T04:24:40.055Z",
+      "updatedAt": "2026-08-06T04:46:20.045Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11372,14 +11432,14 @@
       "dmStarted": false
     },
     {
-      "id": "8428206096",
-      "name": "Sexy Mahi",
+      "id": "9900000054",
+      "name": "➳᭄ ᵢ.",
       "username": null,
-      "createdAt": "2026-08-01T15:40:09.046Z",
-      "updatedAt": "2026-08-06T03:52:47.257Z",
+      "createdAt": "2026-07-16T12:20:58.270Z",
+      "updatedAt": "2026-08-06T04:46:30.094Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": false
+      "dmStarted": true
     },
     {
       "id": "8251509481",
@@ -11412,14 +11472,14 @@
       "dmStarted": true
     },
     {
-      "id": "9900000044",
-      "name": "⌁𝛘𝆺𝅥🔥͢ꤷꤷ͢",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.368Z",
-      "updatedAt": "2026-08-06T04:28:20.053Z",
+      "id": "6367691019",
+      "name": "- 𝚨 𝚳 𝚰 𝚻 </3",
+      "username": "buyingflag",
+      "createdAt": "2026-07-16T08:43:13.075Z",
+      "updatedAt": "2026-08-06T04:52:20.030Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "8749263111",
@@ -11442,21 +11502,21 @@
       "dmStarted": false
     },
     {
+      "id": "9900000045",
+      "name": "Ꮚ𝛊ꪀꪀ𝛊�",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.635Z",
+      "updatedAt": "2026-08-06T04:53:40.057Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "7756248477",
       "name": "-𝐊𝐚𝐣𝐮𝐤𝐚𝐭𝐥𝐢 🚩",
       "username": "Haan_bhai_bhok",
       "createdAt": "2026-08-03T16:18:46.395Z",
       "updatedAt": "2026-08-03T16:18:46.395Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
-      "id": "6367691019",
-      "name": "- 𝚨 𝚳 𝚰 𝚻 </3",
-      "username": "buyingflag",
-      "createdAt": "2026-07-16T08:43:13.075Z",
-      "updatedAt": "2026-08-06T04:18:09.502Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
@@ -11492,11 +11552,21 @@
       "dmStarted": true
     },
     {
-      "id": "9900000047",
-      "name": "𓆩꯭𝐌𝗮𝘅𝘅𓏲",
+      "id": "9900000052",
+      "name": "𓆰𝅃꯭᳚⃝😈⃪𝐓𝐂�",
       "username": null,
-      "createdAt": "2026-07-16T12:20:56.938Z",
-      "updatedAt": "2026-08-06T04:25:20.113Z",
+      "createdAt": "2026-07-16T12:20:57.732Z",
+      "updatedAt": "2026-08-06T04:55:30.113Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000043",
+      "name": "ᯓ𝁘ໍ˹𝐃99",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.101Z",
+      "updatedAt": "2026-08-06T04:50:50.074Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11517,6 +11587,16 @@
       "username": null,
       "createdAt": "2026-07-19T08:14:01.745Z",
       "updatedAt": "2026-08-04T07:10:05.275Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000047",
+      "name": "𓆩꯭𝐌𝗮𝘅𝘅𓏲",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:56.938Z",
+      "updatedAt": "2026-08-06T04:52:10.056Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11546,7 +11626,7 @@
       "name": "↬꯭ᬃ ⃪.",
       "username": null,
       "createdAt": "2026-07-16T12:20:56.913Z",
-      "updatedAt": "2026-08-06T04:24:20.079Z",
+      "updatedAt": "2026-08-06T04:51:40.079Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11562,21 +11642,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000051",
-      "name": "Sagar Jr",
+      "id": "9900000044",
+      "name": "⌁𝛘𝆺𝅥🔥͢ꤷꤷ͢",
       "username": null,
-      "createdAt": "2026-07-16T12:20:57.475Z",
-      "updatedAt": "2026-08-06T04:23:10.080Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000043",
-      "name": "ᯓ𝁘ໍ˹𝐃99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.101Z",
-      "updatedAt": "2026-08-06T04:25:20.098Z",
+      "createdAt": "2026-07-16T12:20:56.368Z",
+      "updatedAt": "2026-08-06T04:54:20.340Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11592,16 +11662,6 @@
       "dmStarted": false
     },
     {
-      "id": "9900000045",
-      "name": "Ꮚ𝛊ꪀꪀ𝛊�",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:56.635Z",
-      "updatedAt": "2026-08-06T04:20:50.066Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
       "id": "6597893789",
       "name": "𝐌ᴀʀᴄᴏ | 𝐙ᴇɴᴏ 🎩🪄",
       "username": "iownzeno",
@@ -11612,44 +11672,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000039",
-      "name": "𝛆᪵🤍 ❍",
+      "id": "6951721325",
+      "name": "꯭꯭⎯꯭꯭꯭ᷝ‌⎯ⷨ‌꯭꯭꯭‌͓ ꯭꯭🅸︎꯭𝗺꯭𝗽֟፝𝗿꯭𝝴𝘀꯭𝘀꯭🦋꯭𝅃꯭꯭᳚ꀭ꯭‧₊꯭♡゙꯭꯬꯭",
       "username": null,
-      "createdAt": "2026-07-16T12:20:54.985Z",
-      "updatedAt": "2026-08-06T04:26:20.449Z",
+      "createdAt": "2026-07-17T13:45:53.948Z",
+      "updatedAt": "2026-08-06T04:36:19.155Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000041",
-      "name": "𝚱99",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:55.552Z",
-      "updatedAt": "2026-08-06T04:26:30.293Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000042",
-      "name": "𝐀𝐁𝐇�",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:55.823Z",
-      "updatedAt": "2026-08-06T04:26:40.218Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
-    },
-    {
-      "id": "9900000033",
-      "name": "KHUSHI",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:53.329Z",
-      "updatedAt": "2026-08-06T04:25:10.046Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "7847613009",
@@ -11752,11 +11782,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000019",
-      "name": "𝁐⃪⃭𝐑𝐚𝐬𝐠𝐮𝐥𝐥�",
+      "id": "9900000048",
+      "name": "🧿🫵",
       "username": null,
-      "createdAt": "2026-07-16T12:20:50.513Z",
-      "updatedAt": "2026-08-06T04:27:50.029Z",
+      "createdAt": "2026-07-16T12:20:57.181Z",
+      "updatedAt": "2026-08-06T04:49:00.061Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11792,41 +11822,41 @@
       "dmStarted": false
     },
     {
-      "id": "9900000016",
-      "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Jr",
+      "id": "9900000028",
+      "name": "𝐑𝐚𝐝𝐡𝐢𝐤𝐚._.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:44.840Z",
-      "updatedAt": "2026-08-06T04:28:30.043Z",
+      "createdAt": "2026-07-16T12:20:51.980Z",
+      "updatedAt": "2026-08-06T04:53:00.074Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000056",
-      "name": "𝑻𝒐𝒙𝒊𝒄╰‿╯",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:58.837Z",
-      "updatedAt": "2026-08-06T04:21:10.094Z",
+      "id": "7821118329",
+      "name": "￶ ￶￶￶￶￶￶￶￶￶￶￶乛\"𝑵 𝒂￶ 𝒕 𝒌 𝒉 𝒂 𝒕 🪕\"-￶",
+      "username": "ll_N_4_T_U_ll",
+      "createdAt": "2026-07-16T08:38:32.498Z",
+      "updatedAt": "2026-08-06T04:52:37.112Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000006",
-      "name": "PS_xd",
+      "id": "9900000057",
+      "name": "𝐂𝐔𝐓𝐄 (.",
       "username": null,
-      "createdAt": "2026-07-16T12:20:31.571Z",
-      "updatedAt": "2026-08-06T04:22:10.013Z",
+      "createdAt": "2026-07-16T12:20:59.123Z",
+      "updatedAt": "2026-08-06T04:51:50.073Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "6525603974",
-      "name": "𝐀𝐢𝐬𝐡𝐮🦋⃟💗᪲᪲᪲",
+      "id": "9900000058",
+      "name": "³⁶⁵ㅤꮇꭷꮇᎧ",
       "username": null,
-      "createdAt": "2026-07-19T16:17:49.866Z",
-      "updatedAt": "2026-08-05T03:06:20.810Z",
+      "createdAt": "2026-07-16T12:20:59.409Z",
+      "updatedAt": "2026-08-06T04:49:40.114Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11912,21 +11942,11 @@
       "dmStarted": false
     },
     {
-      "id": "6213088291",
-      "name": "⎯꯭֯🖤⃪ ꯭⃛֯ ̶̲̽͟𓆩⃪ͥ͢ ᷟ𓆩𝙍𝘼𝘿𝙃𝙀 ⃪𝄀꯭𝄄꯭ا✾༐𓂃⃪꯭,, ㅤ",
-      "username": "TheRadheXd",
-      "createdAt": "2026-07-23T16:47:49.615Z",
-      "updatedAt": "2026-08-06T04:29:10.442Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
-    },
-    {
-      "id": "9900000048",
-      "name": "🧿🫵",
+      "id": "9900000014",
+      "name": "⬎‌⎯꯭‌꯭𝐊",
       "username": null,
-      "createdAt": "2026-07-16T12:20:57.181Z",
-      "updatedAt": "2026-08-06T04:23:00.108Z",
+      "createdAt": "2026-07-16T12:20:44.445Z",
+      "updatedAt": "2026-08-06T04:54:10.019Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -11962,11 +11982,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000021",
-      "name": "◦•●◉✿✞︎ཞ།ધે",
+      "id": "9900000033",
+      "name": "KHUSHI",
       "username": null,
-      "createdAt": "2026-07-16T12:20:50.799Z",
-      "updatedAt": "2026-08-06T04:24:10.033Z",
+      "createdAt": "2026-07-16T12:20:53.329Z",
+      "updatedAt": "2026-08-06T04:55:00.090Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -12022,6 +12042,16 @@
       "dmStarted": false
     },
     {
+      "id": "6525603974",
+      "name": "𝐀𝐢𝐬𝐡𝐮🦋⃟💗᪲᪲᪲",
+      "username": null,
+      "createdAt": "2026-07-19T16:17:49.866Z",
+      "updatedAt": "2026-08-06T04:49:25.645Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
       "id": "8801289909",
       "name": "Ash",
       "username": "sexxyyAsh",
@@ -12032,11 +12062,21 @@
       "dmStarted": false
     },
     {
-      "id": "9900000058",
-      "name": "³⁶⁵ㅤꮇꭷꮇᎧ",
+      "id": "9900000050",
+      "name": "Unknown_xd",
       "username": null,
-      "createdAt": "2026-07-16T12:20:59.409Z",
-      "updatedAt": "2026-08-06T04:27:00.195Z",
+      "createdAt": "2026-07-16T12:20:57.454Z",
+      "updatedAt": "2026-08-06T04:45:30.070Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "7594120920",
+      "name": "𝙰𝙸𝚂𝚈𝙰 𓆩🥀𓆪",
+      "username": "II_Crown_Queen_II",
+      "createdAt": "2026-07-22T09:23:56.802Z",
+      "updatedAt": "2026-08-06T04:56:16.733Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -12052,21 +12092,21 @@
       "dmStarted": false
     },
     {
-      "id": "9900000029",
-      "name": "𓆩𝐏𝐀𝐓𝐄𝐋𓆪 �.",
+      "id": "9900000019",
+      "name": "𝁐⃪⃭𝐑𝐚𝐬𝐠𝐮𝐥𝐥�",
       "username": null,
-      "createdAt": "2026-07-16T12:20:52.253Z",
-      "updatedAt": "2026-08-06T04:22:10.057Z",
+      "createdAt": "2026-07-16T12:20:50.513Z",
+      "updatedAt": "2026-08-06T04:50:10.048Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000014",
-      "name": "⬎‌⎯꯭‌꯭𝐊",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:44.445Z",
-      "updatedAt": "2026-08-06T04:28:00.044Z",
+      "id": "8098146730",
+      "name": "ㅤ𓆩4ˢᵗ𓆪 🇹‌ 𝐇 𝐎 𝐌 𝐀 𝐒 ⃪💘⃪᭄𝆺𝅥༎ࠫ ⋆᪳᪳⟶ ㅤ",
+      "username": "TheY_CaIl_mE_OG",
+      "createdAt": "2026-07-16T08:41:49.352Z",
+      "updatedAt": "2026-08-06T04:36:52.589Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -12082,11 +12122,21 @@
       "dmStarted": false
     },
     {
-      "id": "7594120920",
-      "name": "𝙰𝙸𝚂𝚈𝙰 𓆩🥀𓆪",
-      "username": "II_Crown_Queen_II",
-      "createdAt": "2026-07-22T09:23:56.802Z",
-      "updatedAt": "2026-08-06T04:22:34.305Z",
+      "id": "9900000029",
+      "name": "𓆩𝐏𝐀𝐓𝐄𝐋𓆪 �.",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:52.253Z",
+      "updatedAt": "2026-08-06T04:49:10.038Z",
+      "welcomeBonusClaimed": false,
+      "welcomeBonusAmount": null,
+      "dmStarted": true
+    },
+    {
+      "id": "9900000021",
+      "name": "◦•●◉✿✞︎ཞ།ધે",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:50.799Z",
+      "updatedAt": "2026-08-06T04:50:10.057Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -12112,11 +12162,11 @@
       "dmStarted": false
     },
     {
-      "id": "9900000050",
-      "name": "Unknown_xd",
+      "id": "9900000056",
+      "name": "𝑻𝒐𝒙𝒊𝒄╰‿╯",
       "username": null,
-      "createdAt": "2026-07-16T12:20:57.454Z",
-      "updatedAt": "2026-08-06T04:23:10.073Z",
+      "createdAt": "2026-07-16T12:20:58.837Z",
+      "updatedAt": "2026-08-06T04:54:40.139Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
@@ -12132,24 +12182,24 @@
       "dmStarted": false
     },
     {
-      "id": "8098146730",
-      "name": "ㅤ𓆩4ˢᵗ𓆪 🇹‌ 𝐇 𝐎 𝐌 𝐀 𝐒 ⃪💘⃪᭄𝆺𝅥༎ࠫ ⋆᪳᪳⟶ ㅤ",
-      "username": "TheY_CaIl_mE_OG",
-      "createdAt": "2026-07-16T08:41:49.352Z",
-      "updatedAt": "2026-08-06T04:02:41.030Z",
+      "id": "9900000016",
+      "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Jr",
+      "username": null,
+      "createdAt": "2026-07-16T12:20:44.840Z",
+      "updatedAt": "2026-08-06T04:47:50.031Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
     },
     {
-      "id": "9900000028",
-      "name": "𝐑𝐚𝐝𝐡𝐢𝐤𝐚._.",
-      "username": null,
-      "createdAt": "2026-07-16T12:20:51.980Z",
-      "updatedAt": "2026-08-06T04:22:40.040Z",
+      "id": "6213088291",
+      "name": "⎯꯭֯🖤⃪ ꯭⃛֯ ̶̲̽͟𓆩⃪ͥ͢ ᷟ𓆩𝙍𝘼𝘿𝙃𝙀 ⃪𝄀꯭𝄄꯭ا✾༐𓂃⃪꯭,, ㅤ",
+      "username": "TheRadheXd",
+      "createdAt": "2026-07-23T16:47:49.615Z",
+      "updatedAt": "2026-08-06T04:44:04.243Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
-      "dmStarted": true
+      "dmStarted": false
     },
     {
       "id": "7915718457",
@@ -12192,24 +12242,14 @@
       "dmStarted": false
     },
     {
-      "id": "9900000057",
-      "name": "𝐂𝐔𝐓𝐄 (.",
+      "id": "9900000006",
+      "name": "PS_xd",
       "username": null,
-      "createdAt": "2026-07-16T12:20:59.123Z",
-      "updatedAt": "2026-08-06T04:25:30.098Z",
+      "createdAt": "2026-07-16T12:20:31.571Z",
+      "updatedAt": "2026-08-06T04:50:30.026Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
-    },
-    {
-      "id": "6951721325",
-      "name": "꯭꯭⎯꯭꯭꯭ᷝ‌⎯ⷨ‌꯭꯭꯭‌͓ ꯭꯭🅸︎꯭𝗺꯭𝗽֟፝𝗿꯭𝝴𝘀꯭𝘀꯭🦋꯭𝅃꯭꯭᳚ꀭ꯭‧₊꯭♡゙꯭꯬꯭",
-      "username": null,
-      "createdAt": "2026-07-17T13:45:53.948Z",
-      "updatedAt": "2026-08-06T04:05:10.341Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": false
     },
     {
       "id": "8840568446",
@@ -12220,16 +12260,6 @@
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": false
-    },
-    {
-      "id": "7821118329",
-      "name": "￶ ￶￶￶￶￶￶￶￶￶￶￶乛\"𝑵 𝒂￶ 𝒕 𝒌 𝒉 𝒂 𝒕 🪕\"-￶",
-      "username": "ll_N_4_T_U_ll",
-      "createdAt": "2026-07-16T08:38:32.498Z",
-      "updatedAt": "2026-08-06T04:26:50.120Z",
-      "welcomeBonusClaimed": false,
-      "welcomeBonusAmount": null,
-      "dmStarted": true
     },
     {
       "id": "6230456949",
@@ -12306,7 +12336,7 @@
       "name": "─ Jr",
       "username": null,
       "createdAt": "2026-07-16T12:20:37.339Z",
-      "updatedAt": "2026-08-06T04:29:40.021Z",
+      "updatedAt": "2026-08-06T04:54:50.018Z",
       "welcomeBonusClaimed": false,
       "welcomeBonusAmount": null,
       "dmStarted": true
