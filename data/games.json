@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T13:58:38.187Z",
+  "timestamp": "2026-08-06T14:15:13.429Z",
   "data": [
     {
       "id": 3637,
@@ -92,12 +92,12 @@
       "topicId": "general"
     },
     {
-      "id": 6035,
-      "word": "cave",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-06T13:58:38.176Z",
-      "updatedAt": "2026-08-06T13:58:38.176Z",
-      "startedBy": "7594120920",
+      "id": 6036,
+      "word": "blown",
+      "activeChat": "-1002633411148",
+      "createdAt": "2026-08-06T14:15:13.423Z",
+      "updatedAt": "2026-08-06T14:15:13.423Z",
+      "startedBy": "7821118329",
       "topicId": "general"
     },
     {
