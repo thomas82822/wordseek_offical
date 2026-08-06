@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T15:44:41.985Z",
+  "timestamp": "2026-08-06T16:41:49.091Z",
   "data": [
     {
       "id": 3637,
@@ -137,15 +137,6 @@
       "topicId": "general"
     },
     {
-      "id": 6115,
-      "word": "bike",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-06T15:43:23.183Z",
-      "updatedAt": "2026-08-06T15:43:23.183Z",
-      "startedBy": "5925396013",
-      "topicId": "general"
-    },
-    {
       "id": 2590,
       "word": "erase",
       "activeChat": "8702740059",
@@ -155,11 +146,11 @@
       "topicId": "general"
     },
     {
-      "id": 6116,
-      "word": "stake",
+      "id": 6117,
+      "word": "polar",
       "activeChat": "-1002633411148",
-      "createdAt": "2026-08-06T15:44:41.981Z",
-      "updatedAt": "2026-08-06T15:44:41.981Z",
+      "createdAt": "2026-08-06T15:46:27.479Z",
+      "updatedAt": "2026-08-06T15:46:27.479Z",
       "startedBy": "7821118329",
       "topicId": "general"
     },
