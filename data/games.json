@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-06T17:49:51.086Z",
+  "timestamp": "2026-08-06T18:17:37.976Z",
   "data": [
-    {
-      "id": 6130,
-      "word": "annoy",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-06T17:49:51.081Z",
-      "updatedAt": "2026-08-06T17:49:51.081Z",
-      "startedBy": "7821118329",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
@@ -47,12 +38,30 @@
       "topicId": "general"
     },
     {
+      "id": 6131,
+      "word": "screw",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-06T17:52:12.686Z",
+      "updatedAt": "2026-08-06T17:52:12.686Z",
+      "startedBy": "7821118329",
+      "topicId": "general"
+    },
+    {
       "id": 3936,
       "word": "shook",
       "activeChat": "-1004408168512",
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
       "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 6133,
+      "word": "remind",
+      "activeChat": "-1002633411148",
+      "createdAt": "2026-08-06T18:17:37.971Z",
+      "updatedAt": "2026-08-06T18:17:37.971Z",
+      "startedBy": "7821118329",
       "topicId": "general"
     },
     {
@@ -152,15 +161,6 @@
       "createdAt": "2026-07-24T18:31:57.896Z",
       "updatedAt": "2026-07-24T18:31:57.896Z",
       "startedBy": "8702740059",
-      "topicId": "general"
-    },
-    {
-      "id": 6117,
-      "word": "polar",
-      "activeChat": "-1002633411148",
-      "createdAt": "2026-08-06T15:46:27.479Z",
-      "updatedAt": "2026-08-06T15:46:27.479Z",
-      "startedBy": "7821118329",
       "topicId": "general"
     },
     {
