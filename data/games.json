@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T15:32:23.595Z",
+  "timestamp": "2026-08-06T15:39:08.614Z",
   "data": [
     {
       "id": 3637,
@@ -137,21 +137,12 @@
       "topicId": "general"
     },
     {
-      "id": 6103,
-      "word": "bone",
+      "id": 6111,
+      "word": "medley",
       "activeChat": "-1002259084367",
-      "createdAt": "2026-08-06T15:30:48.541Z",
-      "updatedAt": "2026-08-06T15:30:48.541Z",
+      "createdAt": "2026-08-06T15:36:27.134Z",
+      "updatedAt": "2026-08-06T15:36:27.134Z",
       "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 6105,
-      "word": "plus",
-      "activeChat": "-1002633411148",
-      "createdAt": "2026-08-06T15:32:23.590Z",
-      "updatedAt": "2026-08-06T15:32:23.590Z",
-      "startedBy": "7821118329",
       "topicId": "general"
     },
     {
