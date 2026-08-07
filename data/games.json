@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T16:02:34.854Z",
+  "timestamp": "2026-08-07T16:07:36.449Z",
   "data": [
     {
       "id": 3637,
@@ -83,15 +83,6 @@
       "topicId": "general"
     },
     {
-      "id": 6317,
-      "word": "disk",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-07T16:02:34.849Z",
-      "updatedAt": "2026-08-07T16:02:34.849Z",
-      "startedBy": "5463589388",
-      "topicId": "general"
-    },
-    {
       "id": 6145,
       "word": "tick",
       "activeChat": "-1003983442845",
@@ -125,6 +116,15 @@
       "createdAt": "2026-07-22T00:12:08.916Z",
       "updatedAt": "2026-07-22T00:12:08.916Z",
       "startedBy": "5822644571",
+      "topicId": "general"
+    },
+    {
+      "id": 6322,
+      "word": "sign",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-07T16:07:36.440Z",
+      "updatedAt": "2026-08-07T16:07:36.440Z",
+      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
