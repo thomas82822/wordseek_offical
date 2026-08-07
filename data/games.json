@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T18:07:43.291Z",
+  "timestamp": "2026-08-07T18:30:00.009Z",
   "data": [
     {
       "id": 3637,
@@ -143,15 +143,6 @@
       "createdAt": "2026-08-07T17:04:11.604Z",
       "updatedAt": "2026-08-07T17:04:11.604Z",
       "startedBy": "7821118329",
-      "topicId": "general"
-    },
-    {
-      "id": 6341,
-      "word": "poop",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-07T18:07:43.286Z",
-      "updatedAt": "2026-08-07T18:07:43.286Z",
-      "startedBy": "7896868370",
       "topicId": "general"
     },
     {
