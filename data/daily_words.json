@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T23:30:00.008Z",
+  "timestamp": "2026-08-07T04:30:00.003Z",
   "data": [
     {
       "id": 1,
@@ -220,6 +220,17 @@
       "sentence": null,
       "createdAt": "2026-08-06T00:30:00.057Z",
       "updatedAt": "2026-08-06T00:30:00.057Z"
+    },
+    {
+      "id": 661,
+      "dayNumber": 661,
+      "word": "execs",
+      "date": "2026-08-07T00:00:00.000Z",
+      "meaning": null,
+      "phonetic": null,
+      "sentence": null,
+      "createdAt": "2026-08-07T00:30:00.061Z",
+      "updatedAt": "2026-08-07T00:30:00.061Z"
     }
   ]
 }
