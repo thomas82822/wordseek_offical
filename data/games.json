@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T07:00:11.075Z",
+  "timestamp": "2026-08-07T07:20:08.569Z",
   "data": [
     {
       "id": 3637,
@@ -92,12 +92,12 @@
       "topicId": "general"
     },
     {
-      "id": 6144,
-      "word": "halt",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-07T07:00:11.065Z",
-      "updatedAt": "2026-08-07T07:00:11.065Z",
-      "startedBy": "5925396013",
+      "id": 6145,
+      "word": "tick",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-07T07:20:08.557Z",
+      "updatedAt": "2026-08-07T07:20:08.557Z",
+      "startedBy": "8311195623",
       "topicId": "general"
     },
     {
