@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T20:36:04.963Z",
+  "timestamp": "2026-08-08T20:41:14.910Z",
   "data": [
     {
       "id": 3637,
@@ -47,21 +47,21 @@
       "topicId": "general"
     },
     {
-      "id": 6648,
-      "word": "draw",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T20:36:04.960Z",
-      "updatedAt": "2026-08-08T20:36:04.960Z",
-      "startedBy": "7896868370",
-      "topicId": "general"
-    },
-    {
       "id": 291,
       "word": "tepid",
       "activeChat": "8668222760",
       "createdAt": "2026-07-19T01:59:59.202Z",
       "updatedAt": "2026-07-19T01:59:59.202Z",
       "startedBy": "8668222760",
+      "topicId": "general"
+    },
+    {
+      "id": 6652,
+      "word": "arid",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T20:41:14.903Z",
+      "updatedAt": "2026-08-08T20:41:14.903Z",
+      "startedBy": "8493028085",
       "topicId": "general"
     },
     {
