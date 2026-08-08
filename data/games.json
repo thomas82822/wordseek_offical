@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T07:40:37.745Z",
+  "timestamp": "2026-08-08T07:47:11.493Z",
   "data": [
     {
       "id": 3637,
@@ -44,15 +44,6 @@
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
       "startedBy": "8098146730",
-      "topicId": "general"
-    },
-    {
-      "id": 6376,
-      "word": "aloe",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-08T06:04:27.391Z",
-      "updatedAt": "2026-08-08T06:04:27.391Z",
-      "startedBy": "8311195623",
       "topicId": "general"
     },
     {
