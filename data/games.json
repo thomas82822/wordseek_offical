@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T11:54:02.364Z",
+  "timestamp": "2026-08-08T12:02:38.006Z",
   "data": [
     {
       "id": 3637,
@@ -155,11 +155,11 @@
       "topicId": "general"
     },
     {
-      "id": 6469,
-      "word": "song",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-08T11:54:02.360Z",
-      "updatedAt": "2026-08-08T11:54:02.360Z",
+      "id": 6471,
+      "word": "high",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T12:02:38.002Z",
+      "updatedAt": "2026-08-08T12:02:38.002Z",
       "startedBy": "8098146730",
       "topicId": "general"
     },
