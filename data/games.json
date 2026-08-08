@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T12:59:23.338Z",
+  "timestamp": "2026-08-08T13:07:04.934Z",
   "data": [
     {
       "id": 3637,
@@ -125,15 +125,6 @@
       "createdAt": "2026-07-21T01:26:49.555Z",
       "updatedAt": "2026-07-21T01:26:49.555Z",
       "startedBy": "8909820239",
-      "topicId": "general"
-    },
-    {
-      "id": 6504,
-      "word": "tile",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-08T12:59:23.335Z",
-      "updatedAt": "2026-08-08T12:59:23.335Z",
-      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
