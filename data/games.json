@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T19:19:54.319Z",
+  "timestamp": "2026-08-08T19:44:39.659Z",
   "data": [
     {
       "id": 3637,
@@ -170,24 +170,6 @@
       "createdAt": "2026-08-08T16:34:03.196Z",
       "updatedAt": "2026-08-08T16:34:03.196Z",
       "startedBy": "7659712445",
-      "topicId": "general"
-    },
-    {
-      "id": 6581,
-      "word": "setup",
-      "activeChat": "-1002259084367",
-      "createdAt": "2026-08-08T16:35:07.257Z",
-      "updatedAt": "2026-08-08T16:35:07.257Z",
-      "startedBy": "5892717826",
-      "topicId": "general"
-    },
-    {
-      "id": 6589,
-      "word": "know",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T19:19:54.308Z",
-      "updatedAt": "2026-08-08T19:19:54.308Z",
-      "startedBy": "5925396013",
       "topicId": "general"
     },
     {
