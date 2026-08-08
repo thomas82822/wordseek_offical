@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T12:48:03.655Z",
+  "timestamp": "2026-08-08T12:54:20.049Z",
   "data": [
     {
       "id": 3637,
@@ -110,11 +110,11 @@
       "topicId": "general"
     },
     {
-      "id": 6501,
-      "word": "hard",
+      "id": 6502,
+      "word": "luck",
       "activeChat": "-1002520756121",
-      "createdAt": "2026-08-08T12:48:03.650Z",
-      "updatedAt": "2026-08-08T12:48:03.650Z",
+      "createdAt": "2026-08-08T12:54:20.042Z",
+      "updatedAt": "2026-08-08T12:54:20.042Z",
       "startedBy": "7594120920",
       "topicId": "general"
     },
