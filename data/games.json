@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T12:35:24.418Z",
+  "timestamp": "2026-08-08T12:48:03.655Z",
   "data": [
     {
       "id": 3637,
@@ -83,30 +83,12 @@
       "topicId": "general"
     },
     {
-      "id": 6494,
-      "word": "burn",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-08T12:30:27.015Z",
-      "updatedAt": "2026-08-08T12:30:27.015Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
-    {
       "id": 3349,
       "word": "randy",
       "activeChat": "-1003942511984",
       "createdAt": "2026-07-25T12:26:40.076Z",
       "updatedAt": "2026-07-25T12:26:40.076Z",
       "startedBy": "8150394064",
-      "topicId": "general"
-    },
-    {
-      "id": 6496,
-      "word": "send",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T12:35:24.414Z",
-      "updatedAt": "2026-08-08T12:35:24.414Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
@@ -125,6 +107,15 @@
       "createdAt": "2026-07-22T00:12:08.916Z",
       "updatedAt": "2026-07-22T00:12:08.916Z",
       "startedBy": "5822644571",
+      "topicId": "general"
+    },
+    {
+      "id": 6501,
+      "word": "hard",
+      "activeChat": "-1002520756121",
+      "createdAt": "2026-08-08T12:48:03.650Z",
+      "updatedAt": "2026-08-08T12:48:03.650Z",
+      "startedBy": "7594120920",
       "topicId": "general"
     },
     {
