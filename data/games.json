@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T11:40:16.951Z",
+  "timestamp": "2026-08-08T11:54:02.364Z",
   "data": [
     {
       "id": 3637,
@@ -155,20 +155,11 @@
       "topicId": "general"
     },
     {
-      "id": 6464,
-      "word": "seep",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-08T11:03:10.179Z",
-      "updatedAt": "2026-08-08T11:03:10.179Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
-    {
-      "id": 6465,
-      "word": "wine",
+      "id": 6469,
+      "word": "song",
       "activeChat": "-1002259084367",
-      "createdAt": "2026-08-08T11:40:16.947Z",
-      "updatedAt": "2026-08-08T11:40:16.947Z",
+      "createdAt": "2026-08-08T11:54:02.360Z",
+      "updatedAt": "2026-08-08T11:54:02.360Z",
       "startedBy": "8098146730",
       "topicId": "general"
     },
