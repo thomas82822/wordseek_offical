@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-08T20:30:10.419Z",
+  "timestamp": "2026-08-08T20:36:04.963Z",
   "data": [
-    {
-      "id": 6645,
-      "word": "care",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T20:30:10.414Z",
-      "updatedAt": "2026-08-08T20:30:10.414Z",
-      "startedBy": "7896868370",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
@@ -53,6 +44,15 @@
       "createdAt": "2026-07-31T10:00:10.027Z",
       "updatedAt": "2026-07-31T10:00:10.027Z",
       "startedBy": "8098146730",
+      "topicId": "general"
+    },
+    {
+      "id": 6648,
+      "word": "draw",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T20:36:04.960Z",
+      "updatedAt": "2026-08-08T20:36:04.960Z",
+      "startedBy": "7896868370",
       "topicId": "general"
     },
     {
