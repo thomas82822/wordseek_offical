@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T06:00:51.767Z",
+  "timestamp": "2026-08-08T07:24:07.569Z",
   "data": [
     {
       "id": 3637,
@@ -38,15 +38,6 @@
       "topicId": "general"
     },
     {
-      "id": 6371,
-      "word": "lake",
-      "activeChat": "-1003983442845",
-      "createdAt": "2026-08-08T06:00:53.849Z",
-      "updatedAt": "2026-08-08T06:00:53.849Z",
-      "startedBy": "8311195623",
-      "topicId": "general"
-    },
-    {
       "id": 3936,
       "word": "shook",
       "activeChat": "-1004408168512",
@@ -56,12 +47,30 @@
       "topicId": "general"
     },
     {
+      "id": 6376,
+      "word": "aloe",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-08T06:04:27.391Z",
+      "updatedAt": "2026-08-08T06:04:27.391Z",
+      "startedBy": "8311195623",
+      "topicId": "general"
+    },
+    {
       "id": 291,
       "word": "tepid",
       "activeChat": "8668222760",
       "createdAt": "2026-07-19T01:59:59.202Z",
       "updatedAt": "2026-07-19T01:59:59.202Z",
       "startedBy": "8668222760",
+      "topicId": "general"
+    },
+    {
+      "id": 6377,
+      "word": "ship",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T07:24:07.565Z",
+      "updatedAt": "2026-08-08T07:24:07.565Z",
+      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
