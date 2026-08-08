@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T16:33:56.117Z",
+  "timestamp": "2026-08-08T17:03:46.130Z",
   "data": [
     {
       "id": 3637,
@@ -164,12 +164,30 @@
       "topicId": "general"
     },
     {
-      "id": 6577,
-      "word": "pasta",
+      "id": 6578,
+      "word": "grate",
+      "activeChat": "7659712445",
+      "createdAt": "2026-08-08T16:34:03.196Z",
+      "updatedAt": "2026-08-08T16:34:03.196Z",
+      "startedBy": "7659712445",
+      "topicId": "general"
+    },
+    {
+      "id": 6581,
+      "word": "setup",
       "activeChat": "-1002259084367",
-      "createdAt": "2026-08-08T16:33:56.111Z",
-      "updatedAt": "2026-08-08T16:33:56.111Z",
+      "createdAt": "2026-08-08T16:35:07.257Z",
+      "updatedAt": "2026-08-08T16:35:07.257Z",
       "startedBy": "5892717826",
+      "topicId": "general"
+    },
+    {
+      "id": 6582,
+      "word": "cold",
+      "activeChat": "-1003983442845",
+      "createdAt": "2026-08-08T17:03:46.125Z",
+      "updatedAt": "2026-08-08T17:03:46.125Z",
+      "startedBy": "8311195623",
       "topicId": "general"
     },
     {
