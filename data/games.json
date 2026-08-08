@@ -1,15 +1,6 @@
 {
-  "timestamp": "2026-08-08T12:08:38.497Z",
+  "timestamp": "2026-08-08T12:15:27.048Z",
   "data": [
-    {
-      "id": 6479,
-      "word": "toss",
-      "activeChat": "-1002520756121",
-      "createdAt": "2026-08-08T12:08:38.488Z",
-      "updatedAt": "2026-08-08T12:08:38.488Z",
-      "startedBy": "7594120920",
-      "topicId": "general"
-    },
     {
       "id": 3637,
       "word": "cell",
@@ -62,6 +53,15 @@
       "createdAt": "2026-07-19T01:59:59.202Z",
       "updatedAt": "2026-07-19T01:59:59.202Z",
       "startedBy": "8668222760",
+      "topicId": "general"
+    },
+    {
+      "id": 6488,
+      "word": "east",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T12:11:57.050Z",
+      "updatedAt": "2026-08-08T12:11:57.050Z",
+      "startedBy": "8098146730",
       "topicId": "general"
     },
     {
@@ -179,15 +179,6 @@
       "createdAt": "2026-07-31T09:55:46.126Z",
       "updatedAt": "2026-07-31T09:55:46.126Z",
       "startedBy": "7413954673",
-      "topicId": "general"
-    },
-    {
-      "id": 6478,
-      "word": "half",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T12:04:40.045Z",
-      "updatedAt": "2026-08-08T12:04:40.045Z",
-      "startedBy": "8098146730",
       "topicId": "general"
     }
   ]
