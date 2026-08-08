@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T20:01:41.913Z",
+  "timestamp": "2026-08-08T20:07:08.551Z",
   "data": [
     {
       "id": 3637,
@@ -128,21 +128,21 @@
       "topicId": "general"
     },
     {
-      "id": 6617,
-      "word": "ever",
-      "activeChat": "-1003798935201",
-      "createdAt": "2026-08-08T20:01:41.910Z",
-      "updatedAt": "2026-08-08T20:01:41.910Z",
-      "startedBy": "5925396013",
-      "topicId": "general"
-    },
-    {
       "id": 6507,
       "word": "team",
       "activeChat": "-1002520756121",
       "createdAt": "2026-08-08T13:07:16.621Z",
       "updatedAt": "2026-08-08T13:07:16.621Z",
       "startedBy": "7594120920",
+      "topicId": "general"
+    },
+    {
+      "id": 6621,
+      "word": "deal",
+      "activeChat": "-1003798935201",
+      "createdAt": "2026-08-08T20:07:08.547Z",
+      "updatedAt": "2026-08-08T20:07:08.547Z",
+      "startedBy": "7896868370",
       "topicId": "general"
     },
     {
